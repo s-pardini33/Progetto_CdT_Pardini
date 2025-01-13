@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!--codificare usando gli opportuni elementi TEI una cartolina-->
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina Ricordo d'Italia</title>
+                <respStmt>
+                    <resp>codificato da</resp>
+                    <persName><forename>Silvia</forename><surname>Pardini</surname></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>12/09/2024</date>
+                <availability status="free"><p>Accesso libero</p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Filatelia numismatica Lottini</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url='cartolina.jpg' width='1080.4px' height='1080.4px' xml:id="cartolina_back"/>
+            <zone ulx="241" uly="308" lrx="796" lry="344" xml:id="cartolina_title"/>
+            <zone ulx="399" uly="355" lrx="643" lry="380" xml:id="welt"/>
+            <zone ulx="103" uly="309" lrx="136" lry="804" xml:id="nb"/>
+            <zone ulx="801" uly="301" lrx="947" lry="456" xml:id="timbro"/>
+            <zone ulx="223" uly="507" lrx="955" lry="750" xml:id="handwritten"/>
+            <zone ulx="233" uly="513" lrx="943" lry="586" xml:id="hw1"/>
+            <zone ulx="267" uly="609" lrx="908" lry="753" xml:id="address"/>
+            <zone ulx="271" uly="615" lrx="875" lry="661" xml:id="a1"/>
+            <zone ulx="670" uly="694" lrx="883" lry="753" xml:id="a2"/>
+        </surface>
+        <surface>
+            <graphic url='cartolina_front.jpg' width='768.4px' height='768.4px' xml:id="cartolina_front"/>
+            <zone ulx="80" uly="212" lrx="695" lry="509" xml:id="foto"/>
+            <zone ulx="207" uly="449" lrx="395" lry="495" xml:id="stampa"/>
+            <zone ulx="167" uly="533" lrx="405" lry="567" xml:id="salute"/>
+            <zone ulx="363" uly="568" lrx="631" lry="597" xml:id="unclear"/>
+        </surface>
+    </facsimile>
+    <text>
+        <group>
+            <text>
+                <body facs="#cartolina_back">
+                    <p facs="#cartolina_title" >CARTOLINA POSTALE-CARTE POSTALE</p>
+                    <p facs="#welt" ><foreign>WELTPOSTVEREIN</foreign></p>
+                    <p facs="#nb" >N.B:Sul lato anteriore della presente si scrive soltanto l'indirizzo</p>
+                    <p><ptr facs="#timbro"/></p>
+                    <p facs="#handwritten" >
+                        <lb facs="#hw1" />
+                        <persName>
+                            <roleName>Signor</roleName> 
+                            <forename>Costantino</forename> 
+                            <surname>Bianchi</surname>
+                        </persName>
+                        <address facs="#address">
+                        <placeName><lb facs="#a1"/>Conventino - Iª cappella</placeName>
+                        <placeName><lb facs="#a2"/>Varese</placeName>
+                        </address>
+                    </p>
+                </body>
+            </text>
+            <text>
+                <body facs="#cartolina_front">
+                <p><ptr facs="#foto" /></p>
+                <p facs="#stampa" >RICORDO D'<country>ITALIA</country></p>
+                </body>
+                <back>
+                    <closer>
+                        <salute facs="#salute" >Grazie e Saluti.</salute>
+                        <unclear facs="#unclear">Ga...</unclear>
+                    </closer>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

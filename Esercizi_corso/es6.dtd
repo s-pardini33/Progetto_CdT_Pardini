@@ -1,0 +1,6 @@
+<!ELEMENT radice (elementoA, elementoZ)>
+<!ELEMENT elementoA (#PCDATA)>
+<!ATTLIST elementoA id ID #REQUIRED>
+<!ELEMENT elementoZ (#PCDATA| elemento1)*>
+<!ELEMENT elemento1 (#PCDATA)>
+<!ATTLIST elemento1 type CDATA #IMPLIED>

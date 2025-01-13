@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!--codificare usando gli opportuni elementi TEI un articolo di rivista-->
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codifica dell'articolo Storica</title>
+                <respStmt>
+                    <resp>codificato da</resp>
+                    <persName><forename>Silvia</forename><surname>Pardini</surname></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>12/10/2024</date>
+                <availability status="free"><p>Accesso libero</p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Storica, National Geographic. N. 140, Ottobre 2020</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url='art_8_1.jpg' width='2393.8px' height='3171.8px' xml:id="pag_1_art"/>
+            <zone ulx="175" uly="114" lrx="953" lry="171" xml:id="pag_1_fw_top"/>
+            <zone ulx="230" uly="407" lrx="1428" lry="925" xml:id="pag_1_titolo"/>
+            <zone ulx="254" uly="952" lrx="1405" lry="1139" xml:id="pag_1_sottotitolo"/>
+            <zone ulx="1438" uly="279" lrx="2385" lry="743" xml:id="pag_1_foto_ciondolo"/>
+            <zone ulx="1608" uly="752" lrx="2124" lry="904" xml:id="pag_1_descrizione_ciondolo"/>
+            <zone ulx="1649" uly="986" lrx="2143" lry="1132" xml:id="pag_1_descrizione_foto_2"/>
+            <zone ulx="142" uly="2053" lrx="1564" lry="3018" xml:id="pag_1_disegno"/>
+            <zone ulx="299" uly="2837" lrx="1446" lry="2965" xml:id="pag_1_descrizione_disegno"/>
+            <zone ulx="262" uly="3063" lrx="649" lry="3103" xml:id="pag_1_pg"/>
+            <zone ulx="236" uly="1170" lrx="908" lry="1986" xml:id="pag_1_col_1"/>
+            <zone ulx="927" uly="1186" lrx="1585" lry="1994" xml:id="pag_1_col_2"/>
+            <zone ulx="1595" uly="1192" lrx="2247" lry="2995" xml:id="pag_1_col_3"/>
+        </surface>
+        <surface>
+            <graphic url='art_8_2.jpg' width='2393.8px' height='3199.8px' xml:id="pag_2_art"/>
+            <zone ulx="182" uly="377" lrx="2188" lry="2106" xml:id="pag_2_foto"/>
+            <zone ulx="179" uly="2179" lrx="827" lry="2986" xml:id="pag_2_col_1"/>
+            <zone ulx="849" uly="2178" lrx="1489" lry="2986" xml:id="pag_2_col_2"/>
+            <zone ulx="1519" uly="2181" lrx="2156" lry="2882" xml:id="pag_2_col_3"/>
+            <zone ulx="1991" uly="2904" lrx="2174" lry="2986" xml:id="pag_2_signed"/>
+            <zone ulx="1785" uly="3039" lrx="2155" lry="3077" xml:id="pag_2_pg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <fw place="top-left" facs="#pag_1_fw_top"><hi rend="italic">ANIMALI</hi> NELLA STORIA</fw>
+            <p facs="#pag_1_titolo" rend="bold">Il pesce gatto, genio protettore degli egizi</p>
+            <p facs="#pag_1_sottotitolo"><lb />
+                Tra i molti pesci del <geogName>Nilo</geogName> gli antichi egizi rimasero<lb />
+                particolarmente affascinati dal pesce gatto,<lb />
+                che divenne simbolo di potere e fertilità
+            </p>
+            <p facs="#pag_1_descrizione_ciondolo" corresp="#pag_1_foto_ciondolo"><lb />
+                <hi rend="bold">CIONDOLO IN ORO</hi> A FORMA DI PESCE.<lb />
+                <time>MEDIO REGNO</time>. <orgName>XII DINASTIA</orgName>. <placeName>NATIONAL<lb />
+                MUSEUM OF SCOTLAND</placeName>, <settlement>EDIMBURGO</settlement>.
+            </p>
+            <p facs="#pag_1_descrizione_foto_2" corresp="#pag_2_foto"><lb />
+                <hi rend="bold"><term>MASTABA</term> DI <forename>KAGEMNI</forename>,</hi> A <district>SAQQARA</district>. IL<lb />
+                BASSORILIEVO MOSTRA ALCUNI PESCATORI<lb />
+                SU BARCHE DI PAPIRO. SOTTO UNA<lb />
+                DI QUESTE NUOTA UN PESCE GATTO.
+            </p>
+            <p>
+                <cb facs="#pag_1_col_1"/><lb />
+                L'attenzione degli antichi egi-<lb />
+                zi venne richiamata da un<lb />
+                pesce d'acqua dolce, dalle<lb />
+                abitudini prevalentemente<lb />
+                notturne, che viveva sul fondo li-<lb />
+                maccioso del <geogName>Nilo</geogName>. E non c'è da stu-<lb />
+                pirsene, dato che l'aspetto del pesce<lb />
+                gatto è davvero insolito. Quest'ani-<lb />
+                male. che appartiene all'ordine dei<lb />
+                siluriformi, può raggiungere più di<lb />
+                <measure><num>1,20</num> <unit>metri</unit></measure> di lunghezza ed è dotato <lb />
+                di appendici carnose o barbigli che,<lb />
+                simili ai baffi di un gatto, spunta-<lb />
+                no dalla testa e hanno la funzione<lb />
+                d'individuare la posizione e il mo-<lb />
+                vimento dellle prede.
+            </p>
+            <p facs="#pag_1_descrizione_disegno" corresp="#pag_1_disegno"><lb />
+                <hi rend="bold">DISEGNO DELLA PARTE SUPERIORE</hi> DEL RECTO DELLA PALETTA DI <forename>NARMER</forename>. AL CENTRO COMPARE<lb />
+                IL <term rend="italic">SEREKHT</term>, MOTIVO A "FACCIATA DI PALAZZO". CON IL "NOME DELL'HORO D'ORO" DEL FARAONE:<lb />
+                UN PESCE GATTO (N'R) E UNO SCALPELLO (MR). CHE SIGNIFICA "IL GRANDE SILURO".
+            </p>
+            <p>
+                <cb facs="#pag_1_col_2"/><lb />
+                Il pesce gatto è un cacciatore vo-<lb />
+                race, aggressivo e forte. Può nuotare<lb />
+                in luoghi con carenza d'ossigeno e,<lb />
+                se necessario, spostarsi in super-<lb />
+                ficie per respirare. È perfino in gra-<lb />
+                do di spingersi fuori dall'acqua per <lb />
+                trovare un ambiente più adatto alla<lb />
+                vita. Emette scariche elettriche di<lb />
+                notevole potenza, sia per catturare le <lb />
+                prede sia per difendersi dalle minac-<lb />
+                ce, rappresentate per esempio dagli<lb />
+                esseri umani. Alcuni esemplari di<lb />
+                tale siluriforme, come il <term rend="italic">Malapterurus<lb />
+                electricus</term> e lo <term rend="italic">Schilbe mystus</term>, produco-<lb />
+                no scosse comprese tra i <measure><num>duecento</num> e i<lb />
+                <num>quattrocento</num> <unit>volt</unit></measure> grazie a un muscolo
+                <cb facs="#pag_1_col_3"/><lb />
+                pettorale che circonda quasi tutto il<lb />
+                corpo. Le scariche possono stordire le<lb />
+                prede e causano un dolore lancinante<lb />
+                nelle persone che le ricevono.
+            </p>
+            <p><hi rend="bold">Pesce con superpoteri</hi></p>
+            <p><lb />
+                proprio in virtù di queste caratteri-<lb />
+                stiche gli egizi credevano che il pesce<lb />
+                gatto avesse dei "poteri" superiori<lb />
+                rispetto agli altri pesci e l'inclusero<lb />
+                nel panteon dei geni divini. L'animale<lb />
+                godeva di una posizione privilegiata<lb />
+                sin dai periodi più remoti della storia<lb />
+                del <geogName>Paese del Nilo</geogName>.
+            </p>
+            <p><lb />
+                Già <forename>Narmer</forename>, il faraone che intorno<lb />
+                al <date>3100 a.C</date> unificò il nord e il sud del<lb />
+                <geogName>Paese</geogName> e fondò la cosiddetta <orgName>I dinastia</orgName>,<lb />
+                scelse l'animale per rappresentare<lb />
+                il proprio nome. Nella tradizione<lb />
+                archeologica il pesce gatto è spesso<lb />
+                equiparato al siluro, a lui molto simi-<lb />
+                le, e infatti si trova nelle indicazioni<lb />
+                del <hi rend="bold">serekht</hi> l'espressione "il grande<lb />
+                [mr] siluro [n'r]". Il pesce è rappre-<lb />
+                sentato nella parte superiore della<lb />
+                sua famosa tavoletta cerimoniale.<lb />
+                Gli egizi non sceglievano a caso il<lb />
+                proprio titolo onorifico e in genere<lb />
+                preferivano associarsi ad animali dal-<lb />
+                le qualità straordinarie; non è quindi<lb />
+                bizzarro che il re ambisse a possedere<lb />
+                le doti di tale pesce. che ne avrebbero<lb />
+                accresciuto il potere e la forza.
+            </p>
+            <p><lb />
+                Il pesce gatto torna spesso nelle<lb />
+                raffigurazioni egizie, e in particolar<lb />
+                modo nelle <term>mastaba</term> dell'<time>Antico re-
+                <fw place="bot-left" facs="#pag_1_pg">STORICA NATIONAL GEOGRAPHIC 16</fw>
+                <pb facs="#pag_2_art"/>
+                <cb facs="#pag_2_col_1"/>
+                <lb />
+                gno</time> presenti nella <geogName>necropoli di <district>Saq-<lb />
+                quara</district></geogName>. Qui lo si può distinguere dagli <lb />
+                altri pesci senza difficoltà. In certe<lb />
+                occasioni lo vediamo nuotare sotto<lb />
+                le fragili imbarcazioni in papiro e in <lb />
+                altre compare in scene di pesca: non<lb />
+                è improbabile che fosse una fonte di<lb />
+                sostentamento, e la sua carne dove-<lb />
+                va essere pregiata, forse per via del<lb />
+                sapore dolciastro.
+            </p>
+            <p>
+                <lb />A <district>Saqqara</district>, nella <term>mastaba</term> del <persName><roleName>visir</roleName><lb />
+                <forename>Kagemni</forename></persName>, risalente alla <orgName>V dinastia</orgName>,<lb />
+                troviamo un quadretto di pesca in cui<lb />
+                alcuni uomini cercano di catturare dei<lb />
+                pesci su semplici scafi in papiro. Uno<lb />
+                di loro ha in mano una lenza con amo
+                <cb facs="#pag_2_col_2"/><lb />
+                che un pesce gatto è in procinto di<lb />
+                mordere. Nella <term>mastaba</term> di <forename>Irukaptah</forename><lb />
+                - un portatore di libagioni nonchè<lb />
+                capo dei macellai alla fine della <orgName>V di-<lb />
+                nastia</orgName> - e in quella di <forename>Mereruka</forename> - giu-<lb />
+                dice capo e visir sotto il regno di <persName><forename>Teti</forename> <addName>I</addName></persName>,<lb />
+                durante la <orgName>VI dinastia</orgName> - i pesci gatto<lb />
+                sono invece catturati con una rete.
+            </p>
+            <p>
+                <lb />Certi esemplari di quest'animale,<lb />
+                come il <term rend="italic">Synodontis batensoda</term>, vennero<lb />
+                associati alla maternità, all'infanzia<lb />
+                e alla fertilità. Per tale ragione la loro<lb />
+                immagine era riprodotta per decorare<lb />
+                flaconi di cosmetici o ciondoli per le<lb />
+                adolescenti. È forse un gioiello simile<lb />
+                a essere menzionato in un racconto in
+                <cb facs="#pag_2_col_3"/><lb />
+                cui il <persName><roleName>re</roleName> <forename>Snefru</forename></persName> esce in barca assieme<lb />
+                ad alcune giovani. Una di loro perde<lb />
+                il ciondolo a forma di pesce gatto, ma<lb />
+                un mago fa sì che l'acqua si divida in<lb />
+                due e lei possa recuperare l'amuleto<lb />
+                dal letto del fiume. In un'altra narra-<lb />
+                zione, <hi rend="italic">Storia dei due fratelli</hi>, il pesce<lb />
+                gatto è di nuovo vincolato alla fertilità,<lb />
+                anche se in modo diverso. Accusato<lb />
+                di stupro dalla cognata, un giovane<lb />
+                decide di dimostrare la propria inno-<lb />
+                cenza al fratello maggiore evirandosi<lb />
+                e scagliando il pene nell'acqua, dove<lb />
+                viene mangiato da un pesce gatto.
+            </p>
+            <signed facs="#pag_2_signed">
+                <persName xml:id="castel">
+                    <forename>Elisa</forename> 
+                    <surname>Castel</surname>
+                </persName>
+                <listPerson corresp="#castel">
+                    <person>
+                        <occupation>EGITTOLOGA</occupation>
+                    </person>
+                </listPerson>
+            </signed>
+            <fw place="bot-right"  facs="#pag_2_pg">STORICA NATIONAL GEOGRAPHIC 17</fw>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE elementoRadice [
+    <!ELEMENT elementoRadice (elementoFiglio*)>
+    <!ELEMENT elementoFiglio (elementoAnnidato*, elementoFiglio*)>
+    <!ELEMENT elementoAnnidato (elementoAnnidato*, elementoFiglio*)>
+]>
+
+<!-- 
+    file: esercizio3.xml
+    nome: Silvia Pardini
+    data: 08/03/2024
+-->
+<!--Aprire il file XML non ben formato presente nel repository github:-->
+<!--validarlo con un parser XML-->
+<!--correggerlo (commentando gli errori e le modifiche)-->
+<!--aggiungere un figlio (child) ad un elemento-->
+<!--aggiungere un fratello (sibling) ad un elemento-->
+
+<!-- corpo del documento XML-->
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+                <!--aggiungere un figlio (child) ad un elemento-->
+            </elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+            </elementoAnnidato> <!-- Ho chiuso il tag elementoAnnidato-->
+            <elementoAnnidato>
+                <!--aggiungere un fratello (sibling) ad un elemento-->
+            </elementoAnnidato>
+            <elementoFiglio>
+            </elementoFiglio><!-- Ho spostato la chiusura del tag dentro l'elemento genitore elementoAnnidato-->
+        </elementoAnnidato>
+        <elementoAnnidato>
+            <elementoFiglio>
+                <elementoFiglio><!--Questo tag è stato chiuso senza essere aperto, ho quindi aggiunto l'apertura del tag-->
+                </elementoFiglio>
+            </elementoFiglio>
+        </elementoAnnidato><!--il tag è stato aperto ma non è mai stato chiuso, ho quindi aggiunto la chiusura-->
+    </elementoFiglio>
+</elementoRadice>
+
+<!-- epilogo -->
