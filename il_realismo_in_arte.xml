@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codifica dei fenomeni notevoli indicati ne "Il realismo in arte"</title>
+                <respStmt>
+                    <resp>Scritto da</resp>
+                    <name>
+                        <persName><forename>Silvia</forename><surname>Pardini</surname></persName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>20/11/2024</date>
+                <availability status="restricted"><p>Accesso limitato per motivi accademici.</p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>
+                        <persName xml:id="martini">
+                            <forename full="init">F.</forename>
+                            <surname>Martini</surname>
+                        </persName>
+                    </author>
+                    <title>Il realismo in arte</title>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="main">IL REALISMO IN ARTE.</titlePart>
+                <titlePart type="note">
+                    <note n="1">E. Quadrio, Il Realismo in Arte. — Milano, 1877.</note>
+                </titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <p>
+                E daccapo il <term xml:id="realismo" type="correnteLetteraria">realismo</term>! Ma è proprio una questione nuova posta innanzi da pochi anni agli artisti ed ai pensatori?
+                Neanche per idea; di nuovo c'è la parola barbaramente inutile che non si sa dove fosse coniata: i Francesi che la
+                mandarono a noi dicono che non è roba loro. Lasciamo andare. Il ><surname xml:id="champfieury">Champfieury</surname>, scrittore di quarto ordine, più stimato
+                nel nostro che nel suo paese, fu il primo a consacrarla in un libro nel quale pareva dovesse sciogliere tutti i problemi che
+                concernono l'arte e la letteratura, e ne formulò invece male parecchi senza risolverne alcuno. La confusione la fece lui:
+                l'accrebbe poi il <surname xml:id="proudhon">Proudhon</surname> quando s'impancò a discorrere da <term type="temi" corresp="#realismo" rend="italic">principe de Vari et de sa destination sociale</term>; e c'era da
+                aspettarselo: perchè il <surname corresp="#proudhon">Proudhon</surname> che qua e là nei suoi molti volumi giudica con sottile sagacia gli scrittori più famosi del
+                tempo suo, quando vuol ridurre quei giudizi a unità di principio dice cose dell'altro mondo. Da allora in poi sopra tale
+                argomento si scrissero libri e opuscoli a centinaia: l'effetto de' quali fu secondo me questo solo: di guastar la testa agli
+                artisti veri, e di apparecchiare una facile scusa agli abborracciatori. Non ci fu brutto quadro, non libro scritto nella
+                lingua tra romagnolesca e garfagnina rimproverata dal <surname xml:id="baretti">Baretti</surname> al <surname xml:id="grescimbeni">Grescimbeni</surname>, che non si encomiasse da alcuni perchè
+                era <rs corresp="#realismo" type="correnteLetteraria" rend="italic">realista</rs>. Andate a dire, per citare un esempio, che nei versi di un uomo di vivo ingegno, il <surname xml:id="fontana">Fontana</surname>, intorno a'quali
+                la critica menò tanto rumore mesi sono, manca la proprietà del linguaggio e delle imagini, manca in una parola la forma
+                e si piglierebbero per roba improvvisata se ci fossero almeno la fluidità e l'impeto che sogliono negli improvvisi: vi
+                saltano addosso, vi replicano che non capite nulla, che quello è <term corresp="#realismo" type="correnteLetteraria">realismo</term> e che il <term corresp="#realismo" type="correnteLetteraria">realismo</term> deve essere così. Sfidateli a
+                definirvelo e, se sono ragionevoli, mette ranno fuori teorie mercè le quali i versi del <surname corresp="#fontana">Fontana</surname> debbono essere condannati
+                inesorabilmente. Parole e niente altro che parole. È la solita storia: nel <date when="1830">1830</date> i critici devoti all'<orgName>Accademia</orgName> (cominciando
+                da <persName xml:id="armandCarrel"><forename>Armand</forename> <surname>Carrel</surname></persName>) rimproveravano a <persName xml:id="victorHugo"><forename>Victor</forename> <surname>Hugo</surname></persName> di essere il capo della <term xml:id="scuolaRomantica" type="correnteLetteraria">scuola romantica</term>: e l'<surname corresp="#victorHugo">Hugo</surname> rispondeva: <q xml:lang="FR" corresp="#victorHugo" rend="italic">Le
+                romantisme? Je ne sais pas ce que c'est.</q>
+            </p>
+            <p>
+                Il signor <surname xml:id="quadrio">Quadrio</surname> che viene, dopo tanti e tanti, a trattare dell'argomento ripete e non bene quel che fu detto dagli altri:
+                ma il suo libriccino è notevole per due ragioni: prima perchè ci si sente il calore e la fede della gioventù e un entusiasmo
+                per le cose dell'arte che non è di molti in oggi: il quale entusiasmo è sempre un bene nei principianti anche quando li
+                conduce a dar dell'illustre a tutto pasto a scrittori come il <surname xml:id="ghislanzoni">Ghislanzoni</surname> e a giudicare primissimi saggi di <term type="temi" corresp="#realismo">osservazione
+                audace della nostra vita sociale</term> i romanzi del <surname xml:id="tronconi">Tronconi</surname>: quasi che dal <surname xml:id="balzac">Balzac</surname> in poi non ci fossero in <country>Francia</country> per tacer di
+                altri, il <surname xml:id="flaubert">Flaubert</surname>, il <surname xml:id="feydeau">Feydeau</surname>, lo <surname xml:id="zola">Zola</surname> e fra noi- negli ardimenti almeno a quelli paragonabile- il <surname xml:id="verga">Verga</surname>. Inoltre, del libro
+                del signor <surname corresp="#quadrio">Quadrio</surname> mette conto discorrere anche perchè vi si trovano adunati in poche pagine tutti gli errori, onde di un
+                principio antico come l'arte, esposto da <forename xml:id="aristotile">Aristotile</forename> e svolto nei dialoghi di <forename xml:id="luciano">Luciano</forename> con molta precisione di parole e
+                molta efficacia di esempi, si discorre oggi come se lo avessimo trovato noi.
+            </p>
+            <p>
+                Ma veniamo al grano, e sentiamo a buon conto come il signor <surname corresp="#quadrio">Quadrio</surname> definisca il <term corresp="#realismo" type="correnteLetteraria">realismo</term>.
+                <cit><quote corresp="#realismo">«Il realismo non è che la reazione in letteratura, dirò» così il radicalismo dell'arte che continua la lotta del pres
+                » ente e dell'avvenire collegati contro il passato che non 
+                » ha più ragione di sussistere.»</quote> <bibl>(<biblScope unit="page">pag. 43</biblScope>.)</bibl></cit>
+            </p>
+            <p>
+                La confusione comincia subito. Il passato? Si fa presto a dirlo: ma in questo passato benedetto ci stanno del pari il
+                <surname xml:id="parini">Parini</surname> e il <surname xml:id="torcacelo"><choice><sic>Porcacclii</sic><corr>Torcacelo</corr></choice></surname>, il <surname xml:id="mantegna">Mantegna</surname> e il <persName xml:id="salviati"><roleName>Cavalierino</roleName> <surname>Salviati</surname></persName>. 
+                Contro chi s’ha a lottare? Contro il <surname corresp="#salviati">Salviati</surname> e il <surname corresp="#torcacelo">Torcacelo</surname>?
+                Son cadaveri più che quatriduani; contro il <surname corresp="#parini">Parini</surname> e il <surname corresp="#mantegna">Mantegna</surname>? Fate voi, ma c'è da buscarne. <q corresp="#quadrio">«Ma (aggiunge il signor
+                <surname corresp="#quadrio">Quadrio</surname>, forse per chiarir meglio il concetto espresso sopra) i realisti, in buona sostanza, ci cantano a chiare note che è
+                vano ogni ideale posto fuori della terra, vano ogni tentativo per raggiungerlo e che il pensiero è chiamato a svestirsi
+                d'ogni illusione e a contemplare il nudo vero conserenità virile.»</q> Peggio il rimedio del malfe.Io non so se i <rs corresp="#realismo">realisti</rs>
+                cantino propriamente così, ma se casomai, cantano un brutto motivo. E qui si fa palese come l'equivoco nasca dalle
+                parole soltanto; e come se invece di fabbricare sostantivi in ismo per pigliar l'aria di novatori, ci contentassimo di dir
+                pane al pane secondo usavano ivecchi, malintesi ce ne sarebbero meno. Rispetto all'arte, <term xml:id="reale" corresp="#realismo" type="verbum" rend="italic">reale</term> e <term xml:id="ideale" corresp="#realismo" type="verbum" rend="italic">ideale</term> nel significato
+                che danno a tali parole il signor <surname corresp="#quadrio">Quadrio</surname> ed i suoi, non sono punto termini inantitesi che si escludano necessariamente a
+                vicenda. L'aspirazione all'<term corresp="#ideale" type="verbum" rend="italic">ideale</term> può benissimo essere un fatto <term corresp="#reale" type="verbum" rend="italic">reale</term> e come tale porgere argomento all'artista più
+                scrupoloso nel <term type="temi" corresp="#realismo">ritrarre dal vero</term>. E poi: dove tanta sete d'ideale quanta nei <rs corresp="#realismo" >libri <rs rend="italic">realisti</rs></rs> d'oggi giorno; dove maggiore,
+                per esempio, chi sappia guardarvi bene, che nelle liriche dello <surname xml:id="stecchetti">Stecchetti</surname>? Che se per <term corresp="#ideale" type="verbum" rend="italic">ideale</term> intendete significare quel
+                lavorio intellettuale d'<term corresp="#ideale" type="verbum" rend="italic">idealizzazione</term> (permettetemi la parola) che ogni artista fa nell'aggiungere, secondo la frase di
+                <surname xml:id="bacone">Bacone</surname>, sè stesso alla natura, <term type="temi" corresp="#realismo">vagliando col proprio spirito le cose osservate prima di riprodurle</term>; se questo chiamate
+                <term corresp="#ideale" type="verbum" rend="italic">ideale</term> e lo condannate, allora non vi capisco più nè capisco che cosa debba essere l'arte e l'artista per voi.
+            </p>
+            <p>
+                Qui <placeName type="epithet">Babele</placeName> guadagna patentemente un tanto, perchè ad una confusione se ne aggiunge un'altra: si confondono cioè i
+                mezzi e gli intenti dell'arte; tanto è vero che il signor <surname corresp="#quadrio">Quadrio</surname> vuole che essa abbia per guida l'<term type="temi" corresp="#realismo" rend="italic">integro vero</term> e per fine
+                <term type="temi" corresp="#realismo" rend="italic">l'onestà</term>. Lasciamo stare se l'onestà possa essere propriamente un fine; ma ad ogni modo che ha da fare l'una cosa
+                coll'altra? Finché non arriveremo, nel giudicare le opere dell'artista, a fare astrazione dal fine che esse si propongono,
+                non c'intenderemo mai; certamente se si fosse dato retta al quietismo e alla rassegnazione cristiana del <surname xml:id="manzoni">Manzoni</surname>, l'<country>Italia</country>
+                non si sarebbe fatta: meglio è stato porgere l'orecchio alle collere possenti del <surname xml:id="guerrazzi">Guerrazzi</surname>: mai <title corresp="#manzoni" rend="italic">Promessi Sposi</title>
+                dureranno perchè dei libri più originali e più veri che abbia la letteratura: morrà la <title corresp="#guerrazzi" rend="italic">Battaglia di <district>Benevento</district></title> dove non è
+                ombra di umanità nei sentimenti de' personaggi, non ombra di verità nelle parole colle quali essi si esprimono.
+            </p>
+            <p>
+                Il signor <surname corresp="#quadrio">Quadrio</surname> per ultimo afferma che <bibl corresp="#quadrio"><q rend="italic">«in lettera
+                » tura come in politica tengono il campo due opposte fazioni:
+                » radicali e conservatori; gli uni propugnano il vecchio, gli
+                » altri il nuovo sistema dell'arte.»</q><biblScope unit="page">(pag.28epas.)</biblScope></bibl>
+            </p>
+            <p>
+                Poche parole, errori molti: e tali che da essi si possono prendere utilmente le mosse per arrivarono a una conchiusione.
+                Oggi come oggi, nell'arte, i più radicali, quelli che vogliono riformare <foreign xml:lang="la">ab imis fundamentis</foreign>, sono o dovrebbero essere
+                coloro ai quali meglio si addirebbe l'appellativo di conservatori: imperocché per andare avanti non ci sia da far altro che
+                tornare indietro. Si vuole la espressione di sentimenti veri? chi più vero di <forename xml:id="omero">Omero</forename>, mettiamo di <forename xml:id="catullo">Catullo</forename>? Quale il
+                realista che non si levi il cappello al l'addio d'<forename type="personaggiImmaginari">Andromaca</forename> e d'<forename type="personaggiImmaginari">Ettore</forename>, o all'ode a <forename type="personaggiImmaginari">Lesbia</forename> che <q rend="italic">ritorna dal portico</q>? Gran
+                parte di questa famosa <term type="temi" corresp="#realismo">questione del realismo</term> si chiude in poche parole di <persName xml:id="leonardoDaVinci"><forename>Leonardo</forename> <addName type="epithet">da <placeName>Vinci</placeName></addName></persName>: <q corresp="#leonardoDaVinci">«Un pittore non deve mai
+                imitare la maniera di un » altro perchè sarebbe detto nipote e non figlio della na-
+                » tura che essendo le cose naturali in tanto larga abbon-
+                » danza, piuttosto si deve ricorrere ad essa natura, che ai
+                » maestri che da quella hanno imparato.»</q>
+
+            </p>
+            <p>
+                E sta bene: e per conseguenza via l'<orgName>accademia</orgName>, via la rettorica, via la robucola di seconda mano e chiediamo all'arte ci
+                che, salvo lievi traviamenti, le si domanda sempre, e fu il criterio per giu dicare il valore degli artisti: <term type="temi" corresp="#realismo">verità di
+                osservazione</term>, <term type="temi" corresp="#realismo">sincerità d'espressione</term>: ma per chiedere questo, non c'è niente affatto bisogno della nuova prosopopea di
+                formule nebulose.
+            </p>
+            <p>
+                Ma badiamo; non bisogna parlar di sistema: la <term type="verbum">verità</term> non è un sistema: e co' sistemi si torna all'accademia diritti: e i
+                così detti <rs corresp="#realismo" rend="italic">realisti</rs> d'oggi, i quali non si degnano di guardare che uno solo degli <term type="temi" corresp="#realismo">aspetti del vero</term>, il brutto, rifanno
+                l'Arcadia: e poco importa se la rifanno a rovescio:
+                i <surname corresp="#tronconi">Tronconi</surname>, i <surname corresp="#fontana">Fontana</surname> e i critici amici loro, ai quali non pare sia reale un romanzo se <forename type="personaggiImmaginari">Taide</forename> non fa da prima donna
+                e <forename type="personaggiImmaginari">Messalina</forename> da comprimaria, sono arcadi anche loro: soltanto hanno le colonie ne' lupanari. Scuole, scuole e sempre
+                scuole: peste dell'arte e degli artisti i quali si sollevano allora soltanto a grande altezza quando mantengono inviolata la
+                libertà dello spirito.
+            </p>
+            <p>
+                E che la così detta scuola nuova si sia condotta già a un bel punto sulla via del sistema, anche questo lo prova: j che
+                vogliono il realismo nella musica; la quale non si sa j come abbia ad esser reale, quando per l'indole sua e pei mezzi dei
+                quali dispone, se può esprimere vagamente un sentimento, non arriva certamente a esprimerne le grada zioni
+                innumerevoli; e neanche si sa come debba giudicarsi se ò <term corresp="#reale" type="verbum" rend="italic">reale</term> o no, perchè impossibile il confronto del vero. Sicuro:
+                il realismo nella musica; o perchè non anche nell'architettura? Se tutte le arti son sorelle chiedete a tutte la medesima
+                dote.
+            </p>
+            <p>
+                <term type="temi" corresp="#realismo">Verità d'osservazione</term>, <term type="temi" corresp="#realismo">sincerità d'espressione</term>: e ci basti: se qualche ciarlatano poi pretendesse di tracciare! a priori la
+                cerchia nella quale l'arte può aggirarsi e dire!
+                che questo si può fare e quello no, e si mettesse in testa di stendere un inventario dei materiali permessi e dei proibiti,
+                alziamo le spalle, o leggiamogli il <surname corresp="#manzoni">Manzoni</surname>:
+                <q corresp="#manzoni">«V'è un
+                » solo genere dove si possa preventivamente ricusare ogni
+                » speranza di durevole riuscita anche al genio: ed il
+                » falso; ma chi interdice al genio d'impiegare materiali;
+                » che sono nella natura, per la ragione che esso non potr j
+                » cavarne buon partito, spinge evidentemente la critica al [
+                » di là del suo compito e delle sue forze.»</q>
+            </p>
+            <p>
+                Vedete un po': in proposito di questa teoria strombettata come nuovissima, m'è occorso citare <forename corresp="#aristotile">Aristotile</forename>, <forename corresp="#luciano">Luciano</forename>,
+                <forename corresp="#bacone">Bacone</forename>, <forename corresp="#leonardoDaVinci">Leonardo</forename> e il <surname corresp="#manzoni">Manzoni</surname>: tutta gente che ha definito il <rs corresp="#realismo">realismo</rs> e ne ha discorso da par suo prima che il <rs corresp="#realismo">realismo</rs>
+                nascesse. La questione sta nella parola: mettiamola da parte: e mettiamoci, anche i sistemi, il passato, la reazione, i
+                radicali e altri simili ammennicoli: chiediamo <term type="verbum">verità</term> e libertà e facciamola finita.
+
+            </p>
+        </body>
+        <back>
+            <signed>F. Martini.</signed>
+        </back>
+    </text>
+</TEI>
