@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trasformazione_pardini.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Progetto di codifica di alcune sezioni della Rassegna Settimanale</title>
+                <respStmt>
+                    <resp>Scritto da</resp>
+                    <name>
+                        <persName><forename>Silvia</forename><surname>Pardini</surname></persName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="11/11/2024">11/11/2024</date>
+                <availability status="free"><p>Accesso libero</p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author><persName xml:id="rogerBallu"><forename>Roger</forename><surname>Ballu</surname></persName></author>
+                    <title>Le belle arti all'esposizione universale del 1878</title>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>Rassegna settimanale</publisher>
+                    <date when="19/05/1878">19 Maggio 1878</date>
+                </bibl>
+                <bibl>
+                    <author><persName xml:id="AdAncona"><forename>Alessandro</forename> <surname>D'Ancona</surname></persName></author>
+                    <title>Della voce genovese "Intendiò"</title>
+                    <pubPlace>Roma</pubPlace>
+                    <publisher>Rassegna settimanale</publisher>
+                    <date when="16/03/1879">16 Marzo 1879</date>
+                </bibl>
+                <bibl>
+                    <author>Sconosciuto</author>
+                    <title>Bibliografia. Letteratura</title>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>Rassegna settimanale</publisher>
+                    <date when="24/02/1878">24 Febbraio 1878</date>
+                </bibl>
+                <bibl>
+                    <author>Sconosciuto</author>
+                    <title>Bibliografia. Letteratura</title>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>Rassegna settimanale</publisher>
+                    <date when="24/02/1878">24 Febbraio 1878</date>
+                </bibl>
+                <bibl>
+                    <author>Sconosciuto</author>
+                    <title>Notizie</title>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>Rassegna settimanale</publisher>
+                    <date when="24/03/1878">24 Marzo 1878</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition xml:id="italic" scheme="css">font-style: italic</rendition>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="mappa_Art_1_1pag"> <!-- art 1, prima pagina -->
+            <graphic url='img/Vol1-1878-1-S1-F20_art1_page-0013.jpg' width='1142.4px' height='1652.4px' xml:id="articolo_1_prima_pagina"/>
+            <zone ulx="63" uly="1083" lrx="553" lry="1163" xml:id="Art_1_front"/>
+            <zone ulx="218" uly="1089" lrx="411" lry="1113" xml:id="Art_1_title"/>
+            <zone ulx="147" uly="1120" lrx="479" lry="1141" xml:id="Art_1_subtitle"/>
+            <zone ulx="408" uly="1141" lrx="541" lry="1161" xml:id="Art_1_where_when"/>
+            <zone ulx="86" uly="1162" lrx="563" lry="1189" xml:id="Art_1_L1"/>
+            <zone ulx="60" uly="1189" lrx="564" lry="1209" xml:id="Art_1_L2"/>
+            <zone ulx="62" uly="1209" lrx="562" lry="1232" xml:id="Art_1_L3"/>
+            <zone ulx="58" uly="1233" lrx="562" lry="1252" xml:id="Art_1_L4"/>
+            <zone ulx="57" uly="1253" lrx="563" lry="1273" xml:id="Art_1_L5"/>
+            <zone ulx="57" uly="1273" lrx="563" lry="1298" xml:id="Art_1_L6"/>
+            <zone ulx="60" uly="1296" lrx="562" lry="1318" xml:id="Art_1_L7"/>
+            <zone ulx="59" uly="1316" lrx="563" lry="1340" xml:id="Art_1_L8"/>
+            <zone ulx="59" uly="1338" lrx="562" lry="1360" xml:id="Art_1_L9"/>
+            <zone ulx="61" uly="1360" lrx="563" lry="1381" xml:id="Art_1_L10"/>
+            <zone ulx="60" uly="1381" lrx="561" lry="1401" xml:id="Art_1_L11"/>
+            <zone ulx="57" uly="1401" lrx="561" lry="1425" xml:id="Art_1_L12"/>
+            <zone ulx="58" uly="1423" lrx="561" lry="1445" xml:id="Art_1_L13"/>
+            <zone ulx="60" uly="1445" lrx="559" lry="1469" xml:id="Art_1_L14"/>
+            <zone ulx="58" uly="1469" lrx="485" lry="1488" xml:id="Art_1_L15"/>
+            <zone ulx="86" uly="1488" lrx="470" lry="1511" xml:id="Art_1_L16"/>
+            <zone ulx="84" uly="1510" lrx="559" lry="1535" xml:id="Art_1_L17"/>
+            <zone ulx="586" uly="93" lrx="1092" lry="112" xml:id="Art_1_L18"/>
+            <zone ulx="586" uly="113" lrx="1094" lry="136" xml:id="Art_1_L19"/>
+            <zone ulx="587" uly="134" lrx="1091" lry="153" xml:id="Art_1_L20"/>
+            <zone ulx="586" uly="156" lrx="1090" lry="179" xml:id="Art_1_L21"/>
+            <zone ulx="587" uly="181" lrx="1091" lry="201" xml:id="Art_1_L22"/>
+            <zone ulx="589" uly="200" lrx="1088" lry="221" xml:id="Art_1_L23"/>
+            <zone ulx="587" uly="222" lrx="1089" lry="243" xml:id="Art_1_L24"/>
+            <zone ulx="584" uly="243" lrx="1089" lry="264" xml:id="Art_1_L25"/>
+            <zone ulx="586" uly="264" lrx="1088" lry="285" xml:id="Art_1_L26"/>
+            <zone ulx="587" uly="286" lrx="1086" lry="306" xml:id="Art_1_L27"/>
+            <zone ulx="586" uly="305" lrx="1087" lry="326" xml:id="Art_1_L28"/>
+            <zone ulx="585" uly="325" lrx="1087" lry="350" xml:id="Art_1_L29"/>
+            <zone ulx="587" uly="350" lrx="1087" lry="369" xml:id="Art_1_L30"/>
+            <zone ulx="583" uly="369" lrx="1088" lry="393" xml:id="Art_1_L31"/>
+            <zone ulx="585" uly="393" lrx="1086" lry="414" xml:id="Art_1_L32"/>
+            <zone ulx="584" uly="414" lrx="1085" lry="432" xml:id="Art_1_L33"/>
+            <zone ulx="583" uly="437" lrx="1089" lry="460" xml:id="Art_1_L34"/>
+            <zone ulx="586" uly="460" lrx="1028" lry="479" xml:id="Art_1_L35"/>
+            <zone ulx="615" uly="478" lrx="1088" lry="501" xml:id="Art_1_L36"/>
+            <zone ulx="584" uly="500" lrx="1091" lry="522" xml:id="Art_1_L37"/>
+            <zone ulx="583" uly="522" lrx="1089" lry="544" xml:id="Art_1_L38"/>
+            <zone ulx="583" uly="545" lrx="1040" lry="564" xml:id="Art_1_L39"/>
+            <zone ulx="613" uly="563" lrx="1086" lry="585" xml:id="Art_1_L40"/>
+            <zone ulx="584" uly="586" lrx="1086" lry="609" xml:id="Art_1_L41"/>
+            <zone ulx="583" uly="608" lrx="1087" lry="629" xml:id="Art_1_L42"/>
+            <zone ulx="582" uly="629" lrx="1085" lry="650" xml:id="Art_1_L43"/>
+            <zone ulx="583" uly="649" lrx="1087" lry="673" xml:id="Art_1_L44"/>
+            <zone ulx="582" uly="675" lrx="1084" lry="693" xml:id="Art_1_L45"/>
+            <zone ulx="581" uly="697" lrx="1085" lry="717" xml:id="Art_1_L46"/>
+            <zone ulx="583" uly="718" lrx="1086" lry="736" xml:id="Art_1_L47"/>
+            <zone ulx="580" uly="736" lrx="1083" lry="759" xml:id="Art_1_L48"/>
+            <zone ulx="581" uly="759" lrx="1081" lry="778" xml:id="Art_1_L49"/>
+            <zone ulx="580" uly="778" lrx="1083" lry="801" xml:id="Art_1_L50"/>
+            <zone ulx="582" uly="802" lrx="1085" lry="822" xml:id="Art_1_L51"/>
+            <zone ulx="580" uly="825" lrx="1083" lry="845" xml:id="Art_1_L52"/>
+            <zone ulx="581" uly="845" lrx="1083" lry="865" xml:id="Art_1_L53"/>
+            <zone ulx="581" uly="866" lrx="1083" lry="888" xml:id="Art_1_L54"/>
+            <zone ulx="579" uly="889" lrx="1081" lry="910" xml:id="Art_1_L55"/>
+            <zone ulx="577" uly="910" lrx="1080" lry="928" xml:id="Art_1_L56"/>
+            <zone ulx="581" uly="929" lrx="1083" lry="950" xml:id="Art_1_L57"/>
+            <zone ulx="579" uly="951" lrx="1080" lry="973" xml:id="Art_1_L58"/>
+            <zone ulx="578" uly="973" lrx="1083" lry="995" xml:id="Art_1_L59"/>
+            <zone ulx="579" uly="993" lrx="1079" lry="1017" xml:id="Art_1_L60"/>
+            <zone ulx="578" uly="1018" lrx="864" lry="1036" xml:id="Art_1_L61"/>
+            <zone ulx="605" uly="1037" lrx="1079" lry="1061" xml:id="Art_1_L62"/>
+            <zone ulx="579" uly="1059" lrx="1083" lry="1081" xml:id="Art_1_L63"/>
+            <zone ulx="577" uly="1081" lrx="1083" lry="1101" xml:id="Art_1_L64"/>
+            <zone ulx="576" uly="1101" lrx="1081" lry="1124" xml:id="Art_1_L65"/>
+            <zone ulx="580" uly="1123" lrx="1081" lry="1146" xml:id="Art_1_L66"/>
+            <zone ulx="579" uly="1146" lrx="1079" lry="1167" xml:id="Art_1_L67"/>
+            <zone ulx="579" uly="1166" lrx="1080" lry="1188" xml:id="Art_1_L68"/>
+            <zone ulx="579" uly="1188" lrx="1083" lry="1210" xml:id="Art_1_L69"/>
+            <zone ulx="577" uly="1209" lrx="1079" lry="1231" xml:id="Art_1_L70"/>
+            <zone ulx="578" uly="1231" lrx="1080" lry="1253" xml:id="Art_1_L71"/>
+            <zone ulx="578" uly="1254" lrx="1078" lry="1273" xml:id="Art_1_L72"/>
+            <zone ulx="577" uly="1273" lrx="1078" lry="1295" xml:id="Art_1_L73"/>
+            <zone ulx="576" uly="1295" lrx="1079" lry="1314" xml:id="Art_1_L74"/>
+            <zone ulx="579" uly="1315" lrx="1079" lry="1337" xml:id="Art_1_L75"/>
+            <zone ulx="578" uly="1339" lrx="1075" lry="1358" xml:id="Art_1_L76"/>
+            <zone ulx="575" uly="1359" lrx="1076" lry="1382" xml:id="Art_1_L77"/>
+            <zone ulx="578" uly="1383" lrx="1078" lry="1406" xml:id="Art_1_L78"/>
+            <zone ulx="575" uly="1405" lrx="1076" lry="1423" xml:id="Art_1_L79"/>
+            <zone ulx="575" uly="1425" lrx="1076" lry="1449" xml:id="Art_1_L80"/>
+            <zone ulx="574" uly="1452" lrx="1078" lry="1470" xml:id="Art_1_L81"/>
+            <zone ulx="573" uly="1470" lrx="1075" lry="1493" xml:id="Art_1_L82"/>
+            <zone ulx="574" uly="1493" lrx="1075" lry="1514" xml:id="Art_1_L83"/>
+            <zone ulx="574" uly="1513" lrx="1077" lry="1533" xml:id="Art_1_L84"/>
+        </surface>
+        <surface xml:id="mappa_Art_1_2pag">
+            <graphic url='img/Vol1-1878-1-S1-F20_art1_page-0014.jpg' width='1148.4px' height='1661.4px' xml:id="articolo_1_seconda_pagina"/>
+            <zone ulx="955" uly="939" lrx="1083" lry="964" xml:id="Art_1_signed"/>
+            <zone ulx="82" uly="104" lrx="587" lry="128" xml:id="Art_1_L85"/>
+            <zone ulx="82" uly="127" lrx="586" lry="148" xml:id="Art_1_L86"/>
+            <zone ulx="83" uly="147" lrx="584" lry="173" xml:id="Art_1_L87"/>
+            <zone ulx="83" uly="173" lrx="584" lry="190" xml:id="Art_1_L88"/>
+            <zone ulx="83" uly="190" lrx="586" lry="213" xml:id="Art_1_L89"/>
+            <zone ulx="81" uly="213" lrx="586" lry="236" xml:id="Art_1_L90"/>
+            <zone ulx="85" uly="237" lrx="542" lry="257" xml:id="Art_1_L91"/>
+            <zone ulx="108" uly="257" lrx="585" lry="278" xml:id="Art_1_L92"/>
+            <zone ulx="82" uly="280" lrx="586" lry="301" xml:id="Art_1_L93"/>
+            <zone ulx="86" uly="301" lrx="588" lry="319" xml:id="Art_1_L94"/>
+            <zone ulx="84" uly="322" lrx="586" lry="340" xml:id="Art_1_L95"/>
+            <zone ulx="83" uly="342" lrx="587" lry="362" xml:id="Art_1_L96"/>
+            <zone ulx="83" uly="365" lrx="585" lry="385" xml:id="Art_1_L97"/>
+            <zone ulx="86" uly="387" lrx="585" lry="409" xml:id="Art_1_L98"/>
+            <zone ulx="84" uly="410" lrx="584" lry="428" xml:id="Art_1_L99"/>
+            <zone ulx="86" uly="428" lrx="584" lry="449" xml:id="Art_1_L100"/>
+            <zone ulx="86" uly="449" lrx="585" lry="472" xml:id="Art_1_L101"/>
+            <zone ulx="85" uly="474" lrx="584" lry="492" xml:id="Art_1_L102"/>
+            <zone ulx="83" uly="493" lrx="243" lry="513" xml:id="Art_1_L103"/>
+            <zone ulx="111" uly="512" lrx="585" lry="537" xml:id="Art_1_L104"/>
+            <zone ulx="85" uly="535" lrx="586" lry="557" xml:id="Art_1_L105"/>
+            <zone ulx="84" uly="558" lrx="588" lry="579" xml:id="Art_1_L106"/>
+            <zone ulx="84" uly="581" lrx="586" lry="603" xml:id="Art_1_L107"/>
+            <zone ulx="83" uly="601" lrx="585" lry="624" xml:id="Art_1_L108"/>
+            <zone ulx="83" uly="623" lrx="587" lry="644" xml:id="Art_1_L109"/>
+            <zone ulx="86" uly="644" lrx="585" lry="667" xml:id="Art_1_L110"/>
+            <zone ulx="84" uly="667" lrx="586" lry="685" xml:id="Art_1_L111"/>
+            <zone ulx="86" uly="685" lrx="587" lry="708" xml:id="Art_1_L112"/>
+            <zone ulx="84" uly="706" lrx="587" lry="731" xml:id="Art_1_L113"/>
+            <zone ulx="86" uly="729" lrx="587" lry="752" xml:id="Art_1_L114"/>
+            <zone ulx="86" uly="753" lrx="586" lry="775" xml:id="Art_1_L115"/>
+            <zone ulx="84" uly="777" lrx="587" lry="794" xml:id="Art_1_L116"/>
+            <zone ulx="85" uly="793" lrx="587" lry="818" xml:id="Art_1_L117"/>
+            <zone ulx="85" uly="818" lrx="586" lry="838" xml:id="Art_1_L118"/>
+            <zone ulx="87" uly="838" lrx="403" lry="858" xml:id="Art_1_L119"/>
+            <zone ulx="112" uly="857" lrx="588" lry="882" xml:id="Art_1_L120"/>
+            <zone ulx="83" uly="880" lrx="587" lry="900" xml:id="Art_1_L121"/>
+            <zone ulx="83" uly="900" lrx="586" lry="923" xml:id="Art_1_L122"/>
+            <zone ulx="85" uly="924" lrx="586" lry="945" xml:id="Art_1_L123"/>
+            <zone ulx="85" uly="944" lrx="587" lry="966" xml:id="Art_1_L124"/>
+            <zone ulx="85" uly="965" lrx="588" lry="988" xml:id="Art_1_L125"/>
+            <zone ulx="83" uly="988" lrx="588" lry="1008" xml:id="Art_1_L126"/>
+            <zone ulx="83" uly="1009" lrx="588" lry="1029" xml:id="Art_1_L127"/>
+            <zone ulx="84" uly="1030" lrx="587" lry="1053" xml:id="Art_1_L128"/>
+            <zone ulx="84" uly="1052" lrx="586" lry="1072" xml:id="Art_1_L129"/>
+            <zone ulx="108" uly="1073" lrx="584" lry="1096" xml:id="Art_1_L130"/>
+            <zone ulx="83" uly="1096" lrx="584" lry="1116" xml:id="Art_1_L131"/>
+            <zone ulx="87" uly="1116" lrx="589" lry="1140" xml:id="Art_1_L132"/>
+            <zone ulx="86" uly="1140" lrx="587" lry="1160" xml:id="Art_1_L133"/>
+            <zone ulx="85" uly="1160" lrx="586" lry="1182" xml:id="Art_1_L134"/>
+            <zone ulx="87" uly="1181" lrx="588" lry="1204" xml:id="Art_1_L135"/>
+            <zone ulx="87" uly="1203" lrx="587" lry="1224" xml:id="Art_1_L136"/>
+            <zone ulx="85" uly="1224" lrx="589" lry="1247" xml:id="Art_1_L137"/>
+            <zone ulx="85" uly="1246" lrx="587" lry="1269" xml:id="Art_1_L138"/>
+            <zone ulx="86" uly="1267" lrx="586" lry="1288" xml:id="Art_1_L139"/>
+            <zone ulx="84" uly="1289" lrx="588" lry="1311" xml:id="Art_1_L140"/>
+            <zone ulx="83" uly="1311" lrx="587" lry="1332" xml:id="Art_1_L141"/>
+            <zone ulx="86" uly="1332" lrx="587" lry="1351" xml:id="Art_1_L142"/>
+            <zone ulx="87" uly="1352" lrx="588" lry="1373" xml:id="Art_1_L143"/>
+            <zone ulx="87" uly="1372" lrx="588" lry="1396" xml:id="Art_1_L144"/>
+            <zone ulx="85" uly="1396" lrx="587" lry="1416" xml:id="Art_1_L145"/>
+            <zone ulx="88" uly="1417" lrx="587" lry="1438" xml:id="Art_1_L146"/>
+            <zone ulx="86" uly="1440" lrx="588" lry="1459" xml:id="Art_1_L147"/>
+            <zone ulx="87" uly="1461" lrx="587" lry="1482" xml:id="Art_1_L148"/>
+            <zone ulx="87" uly="1484" lrx="588" lry="1504" xml:id="Art_1_L149"/>
+            <zone ulx="87" uly="1503" lrx="588" lry="1525" xml:id="Art_1_L150"/>
+            <zone ulx="85" uly="1524" lrx="590" lry="1548" xml:id="Art_1_L151"/>
+            <zone ulx="600" uly="107" lrx="1102" lry="127" xml:id="Art_1_L152"/>
+            <zone ulx="600" uly="128" lrx="1102" lry="147" xml:id="Art_1_L153"/>
+            <zone ulx="599" uly="147" lrx="1100" lry="170" xml:id="Art_1_L154"/>
+            <zone ulx="601" uly="170" lrx="1101" lry="191" xml:id="Art_1_L155"/>
+            <zone ulx="603" uly="193" lrx="1101" lry="213" xml:id="Art_1_L156"/>
+            <zone ulx="601" uly="212" lrx="1101" lry="235" xml:id="Art_1_L157"/>
+            <zone ulx="601" uly="235" lrx="1099" lry="259" xml:id="Art_1_L158"/>
+            <zone ulx="602" uly="259" lrx="1101" lry="277" xml:id="Art_1_L159"/>
+            <zone ulx="603" uly="278" lrx="1103" lry="300" xml:id="Art_1_L160"/>
+            <zone ulx="602" uly="301" lrx="1101" lry="322" xml:id="Art_1_L161"/>
+            <zone ulx="602" uly="320" lrx="1101" lry="343" xml:id="Art_1_L162"/>
+            <zone ulx="601" uly="344" lrx="1102" lry="363" xml:id="Art_1_L163"/>
+            <zone ulx="600" uly="362" lrx="1101" lry="385" xml:id="Art_1_L164"/>
+            <zone ulx="599" uly="386" lrx="1103" lry="406" xml:id="Art_1_L165"/>
+            <zone ulx="603" uly="406" lrx="1091" lry="427" xml:id="Art_1_L166"/>
+            <zone ulx="627" uly="427" lrx="1103" lry="448" xml:id="Art_1_L167"/>
+            <zone ulx="599" uly="449" lrx="1101" lry="473" xml:id="Art_1_L168"/>
+            <zone ulx="601" uly="472" lrx="1102" lry="492" xml:id="Art_1_L169"/>
+            <zone ulx="600" uly="492" lrx="1103" lry="513" xml:id="Art_1_L170"/>
+            <zone ulx="600" uly="513" lrx="1104" lry="534" xml:id="Art_1_L171"/>
+            <zone ulx="602" uly="533" lrx="1104" lry="557" xml:id="Art_1_L172"/>
+            <zone ulx="603" uly="557" lrx="1103" lry="578" xml:id="Art_1_L173"/>
+            <zone ulx="602" uly="577" lrx="966" lry="599" xml:id="Art_1_L174"/>
+            <zone ulx="628" uly="599" lrx="1102" lry="620" xml:id="Art_1_L175"/>
+            <zone ulx="598" uly="625" lrx="1106" lry="644" xml:id="Art_1_L176"/>
+            <zone ulx="602" uly="644" lrx="1104" lry="667" xml:id="Art_1_L177"/>
+            <zone ulx="602" uly="665" lrx="1103" lry="686" xml:id="Art_1_L178"/>
+            <zone ulx="603" uly="687" lrx="1105" lry="707" xml:id="Art_1_L179"/>
+            <zone ulx="601" uly="707" lrx="1105" lry="729" xml:id="Art_1_L180"/>
+            <zone ulx="603" uly="729" lrx="1103" lry="751" xml:id="Art_1_L181"/>
+            <zone ulx="603" uly="751" lrx="1104" lry="769" xml:id="Art_1_L182"/>
+            <zone ulx="602" uly="769" lrx="1104" lry="791" xml:id="Art_1_L183"/>
+            <zone ulx="603" uly="793" lrx="1104" lry="813" xml:id="Art_1_L184"/>
+            <zone ulx="604" uly="814" lrx="1103" lry="835" xml:id="Art_1_L185"/>
+            <zone ulx="603" uly="837" lrx="1102" lry="856" xml:id="Art_1_L186"/>
+            <zone ulx="604" uly="858" lrx="1104" lry="877" xml:id="Art_1_L187"/>
+            <zone ulx="603" uly="879" lrx="763" lry="900" xml:id="Art_1_L188"/>
+            <zone ulx="628" uly="901" lrx="1106" lry="921" xml:id="Art_1_L189"/>
+            <zone ulx="602" uly="922" lrx="1105" lry="941" xml:id="Art_1_L190"/>
+            <zone ulx="602" uly="941" lrx="830" lry="966" xml:id="Art_1_L191"/>
+        </surface>
+        <surface xml:id="mappa_art_2"> <!-- Art 2 -->
+            <graphic url='img/Vol3-1879-1-S1-F63_art2_page-0013.jpg' width='1167.4px' height='1672.4px' xml:id="articolo_2"/>
+            <zone ulx="80" uly="1234" lrx="519" lry="1264" xml:id="Art_2_titlePart"/>
+            <zone ulx="94" uly="1264" lrx="205" lry="1283" xml:id="Art_2_dedication"/>
+            <zone ulx="64" uly="1512" lrx="285" lry="1536" xml:id="Art_2_note"/>
+            <zone ulx="916" uly="698" lrx="1043" lry="722" xml:id="Art_2_signed"/>
+            <zone ulx="72" uly="1282" lrx="552" lry="1308" xml:id="Art_2_L1"/>
+            <zone ulx="39" uly="1306" lrx="551" lry="1327" xml:id="Art_2_L2"/>
+            <zone ulx="42" uly="1329" lrx="553" lry="1350" xml:id="Art_2_L3"/>
+            <zone ulx="47" uly="1348" lrx="553" lry="1372" xml:id="Art_2_L4"/>
+            <zone ulx="47" uly="1371" lrx="553" lry="1393" xml:id="Art_2_L5"/>
+            <zone ulx="45" uly="1393" lrx="552" lry="1412" xml:id="Art_2_L6"/>
+            <zone ulx="43" uly="1414" lrx="553" lry="1436" xml:id="Art_2_L7"/>
+            <zone ulx="46" uly="1436" lrx="552" lry="1458" xml:id="Art_2_L8"/>
+            <zone ulx="45" uly="1457" lrx="551" lry="1479" xml:id="Art_2_L9"/>
+            <zone ulx="43" uly="1479" lrx="552" lry="1499" xml:id="Art_2_L10"/>
+            <zone ulx="554" uly="96" lrx="1069" lry="117" xml:id="Art_2_L11"/>
+            <zone ulx="556" uly="119" lrx="1067" lry="137" xml:id="Art_2_L12"/>
+            <zone ulx="556" uly="138" lrx="1067" lry="162" xml:id="Art_2_L13"/>
+            <zone ulx="555" uly="163" lrx="1067" lry="181" xml:id="Art_2_L14"/>
+            <zone ulx="556" uly="182" lrx="1068" lry="203" xml:id="Art_2_L15"/>
+            <zone ulx="557" uly="204" lrx="1069" lry="224" xml:id="Art_2_L16"/>
+            <zone ulx="559" uly="226" lrx="1067" lry="244" xml:id="Art_2_L17"/>
+            <zone ulx="557" uly="248" lrx="1068" lry="266" xml:id="Art_2_L18"/>
+            <zone ulx="557" uly="269" lrx="1067" lry="289" xml:id="Art_2_L19"/>
+            <zone ulx="556" uly="290" lrx="1069" lry="312" xml:id="Art_2_L20"/>
+            <zone ulx="557" uly="312" lrx="1069" lry="333" xml:id="Art_2_L21"/>
+            <zone ulx="556" uly="334" lrx="1068" lry="353" xml:id="Art_2_L22"/>
+            <zone ulx="558" uly="354" lrx="1069" lry="376" xml:id="Art_2_L23"/>
+            <zone ulx="557" uly="376" lrx="1070" lry="396" xml:id="Art_2_L24"/>
+            <zone ulx="556" uly="398" lrx="1070" lry="419" xml:id="Art_2_L25"/>
+            <zone ulx="555" uly="420" lrx="1069" lry="442" xml:id="Art_2_L26"/>
+            <zone ulx="555" uly="443" lrx="1069" lry="463" xml:id="Art_2_L27"/>
+            <zone ulx="555" uly="464" lrx="1069" lry="484" xml:id="Art_2_L28"/>
+            <zone ulx="555" uly="484" lrx="1069" lry="506" xml:id="Art_2_L29"/>
+            <zone ulx="559" uly="507" lrx="1068" lry="528" xml:id="Art_2_L30"/>
+            <zone ulx="558" uly="529" lrx="1069" lry="547" xml:id="Art_2_L31"/>
+            <zone ulx="558" uly="548" lrx="1067" lry="568" xml:id="Art_2_L32"/>
+            <zone ulx="559" uly="570" lrx="1067" lry="591" xml:id="Art_2_L33"/>
+            <zone ulx="558" uly="592" lrx="1068" lry="612" xml:id="Art_2_L34"/>
+            <zone ulx="559" uly="613" lrx="1068" lry="635" xml:id="Art_2_L35"/>
+            <zone ulx="559" uly="635" lrx="1069" lry="657" xml:id="Art_2_L36"/>
+            <zone ulx="557" uly="657" lrx="1070" lry="677" xml:id="Art_2_L37"/>
+            <zone ulx="561" uly="676" lrx="1031" lry="696" xml:id="Art_2_L38"/>
+        </surface>
+        <surface xml:id="mappa_bibl_1_1pag"> <!-- Biblio 1, prima pagina-->
+            <graphic url='img/Vol1-1878-1-S1-F8_biblio_1_page-0016.jpg' width='1154.4px' height='1691.4px' xml:id="bibliografia_1_prima_pagina"/>
+            <zone ulx="74" uly="893" lrx="587" lry="961" xml:id="Bibl_1_front"/>
+            <zone ulx="79" uly="896" lrx="224" lry="921" xml:id="Bibl_1_author"/>
+            <zone ulx="104" uly="964" lrx="587" lry="994" xml:id="Bibl_1_L1"/>
+            <zone ulx="78" uly="993" lrx="587" lry="1013" xml:id="Bibl_1_L2"/>
+            <zone ulx="76" uly="1014" lrx="584" lry="1034" xml:id="Bibl_1_L3"/>
+            <zone ulx="78" uly="1035" lrx="583" lry="1058" xml:id="Bibl_1_L4"/>
+            <zone ulx="79" uly="1058" lrx="586" lry="1078" xml:id="Bibl_1_L5"/>
+            <zone ulx="78" uly="1079" lrx="586" lry="1101" xml:id="Bibl_1_L6"/>
+            <zone ulx="79" uly="1102" lrx="585" lry="1122" xml:id="Bibl_1_L7"/>
+            <zone ulx="79" uly="1122" lrx="583" lry="1143" xml:id="Bibl_1_L8"/>
+            <zone ulx="78" uly="1145" lrx="585" lry="1166" xml:id="Bibl_1_L9"/>
+            <zone ulx="79" uly="1166" lrx="582" lry="1186" xml:id="Bibl_1_L10"/>
+            <zone ulx="81" uly="1186" lrx="584" lry="1209" xml:id="Bibl_1_L11"/>
+            <zone ulx="77" uly="1209" lrx="582" lry="1230" xml:id="Bibl_1_L12"/>
+            <zone ulx="81" uly="1230" lrx="583" lry="1252" xml:id="Bibl_1_L13"/>
+            <zone ulx="79" uly="1254" lrx="585" lry="1273" xml:id="Bibl_1_L14"/>
+            <zone ulx="79" uly="1273" lrx="584" lry="1296" xml:id="Bibl_1_L15"/>
+            <zone ulx="79" uly="1296" lrx="584" lry="1317" xml:id="Bibl_1_L16"/>
+            <zone ulx="80" uly="1318" lrx="583" lry="1337" xml:id="Bibl_1_L17"/>
+            <zone ulx="79" uly="1337" lrx="583" lry="1357" xml:id="Bibl_1_L18"/>
+            <zone ulx="78" uly="1361" lrx="584" lry="1380" xml:id="Bibl_1_L19"/>
+            <zone ulx="79" uly="1383" lrx="582" lry="1401" xml:id="Bibl_1_L20"/>
+            <zone ulx="79" uly="1407" lrx="483" lry="1424" xml:id="Bibl_1_L21"/>
+            <zone ulx="99" uly="1424" lrx="586" lry="1443" xml:id="Bibl_1_L22"/>
+            <zone ulx="75" uly="1445" lrx="587" lry="1466" xml:id="Bibl_1_L23"/>
+            <zone ulx="79" uly="1467" lrx="583" lry="1485" xml:id="Bibl_1_L24"/>
+            <zone ulx="79" uly="1490" lrx="588" lry="1508" xml:id="Bibl_1_L25"/>
+            <zone ulx="77" uly="1509" lrx="584" lry="1531" xml:id="Bibl_1_L26"/>
+            <zone ulx="80" uly="1531" lrx="587" lry="1550" xml:id="Bibl_1_L27"/>
+            <zone ulx="79" uly="1553" lrx="583" lry="1572" xml:id="Bibl_1_L28"/>
+            <zone ulx="596" uly="128" lrx="1101" lry="147" xml:id="Bibl_1_L29"/>
+            <zone ulx="595" uly="149" lrx="1102" lry="171" xml:id="Bibl_1_L30"/>
+            <zone ulx="595" uly="172" lrx="1103" lry="191" xml:id="Bibl_1_L31"/>
+            <zone ulx="598" uly="192" lrx="1102" lry="210" xml:id="Bibl_1_L32"/>
+            <zone ulx="598" uly="212" lrx="1103" lry="232" xml:id="Bibl_1_L33"/>
+            <zone ulx="597" uly="234" lrx="1103" lry="255" xml:id="Bibl_1_L34"/>
+            <zone ulx="597" uly="256" lrx="1106" lry="276" xml:id="Bibl_1_L35"/>
+            <zone ulx="596" uly="278" lrx="1103" lry="298" xml:id="Bibl_1_L36"/>
+            <zone ulx="597" uly="298" lrx="1104" lry="322" xml:id="Bibl_1_L37"/>
+            <zone ulx="595" uly="322" lrx="1100" lry="342" xml:id="Bibl_1_L38"/>
+            <zone ulx="596" uly="344" lrx="795" lry="364" xml:id="Bibl_1_L39"/>
+            <zone ulx="622" uly="364" lrx="1103" lry="384" xml:id="Bibl_1_L40"/>
+            <zone ulx="599" uly="385" lrx="1103" lry="406" xml:id="Bibl_1_L41"/>
+            <zone ulx="598" uly="406" lrx="1101" lry="428" xml:id="Bibl_1_L42"/>
+            <zone ulx="598" uly="428" lrx="1104" lry="452" xml:id="Bibl_1_L43"/>
+            <zone ulx="599" uly="451" lrx="1100" lry="472" xml:id="Bibl_1_L44"/>
+            <zone ulx="599" uly="472" lrx="1102" lry="493" xml:id="Bibl_1_L45"/>
+            <zone ulx="598" uly="492" lrx="1103" lry="516" xml:id="Bibl_1_L46"/>
+            <zone ulx="599" uly="516" lrx="1104" lry="534" xml:id="Bibl_1_L47"/>
+            <zone ulx="599" uly="535" lrx="1103" lry="556" xml:id="Bibl_1_L48"/>
+            <zone ulx="599" uly="555" lrx="1105" lry="580" xml:id="Bibl_1_L49"/>
+            <zone ulx="598" uly="580" lrx="1105" lry="599" xml:id="Bibl_1_L50"/>
+            <zone ulx="598" uly="600" lrx="1104" lry="621" xml:id="Bibl_1_L51"/>
+            <zone ulx="599" uly="622" lrx="1105" lry="641" xml:id="Bibl_1_L52"/>
+            <zone ulx="599" uly="643" lrx="1103" lry="667" xml:id="Bibl_1_L53"/>
+            <zone ulx="599" uly="666" lrx="1103" lry="687" xml:id="Bibl_1_L54"/>
+            <zone ulx="601" uly="688" lrx="1103" lry="707" xml:id="Bibl_1_L55"/>
+            <zone ulx="600" uly="708" lrx="1102" lry="728" xml:id="Bibl_1_L56"/>
+            <zone ulx="599" uly="731" lrx="1101" lry="753" xml:id="Bibl_1_L57"/>
+            <zone ulx="601" uly="752" lrx="1106" lry="771" xml:id="Bibl_1_L58"/>
+            <zone ulx="597" uly="774" lrx="1103" lry="794" xml:id="Bibl_1_L59"/>
+            <zone ulx="600" uly="795" lrx="1103" lry="816" xml:id="Bibl_1_L60"/>
+            <zone ulx="600" uly="816" lrx="1105" lry="837" xml:id="Bibl_1_L61"/>
+            <zone ulx="598" uly="837" lrx="1103" lry="860" xml:id="Bibl_1_L62"/>
+            <zone ulx="597" uly="859" lrx="1108" lry="880" xml:id="Bibl_1_L63"/>
+            <zone ulx="599" uly="880" lrx="1105" lry="902" xml:id="Bibl_1_L64"/>
+            <zone ulx="599" uly="903" lrx="1107" lry="923" xml:id="Bibl_1_L65"/>
+            <zone ulx="600" uly="923" lrx="1107" lry="945" xml:id="Bibl_1_L66"/>
+            <zone ulx="599" uly="947" lrx="1104" lry="966" xml:id="Bibl_1_L67"/>
+            <zone ulx="597" uly="965" lrx="1104" lry="988" xml:id="Bibl_1_L68"/>
+            <zone ulx="596" uly="988" lrx="1107" lry="1012" xml:id="Bibl_1_L69"/>
+            <zone ulx="599" uly="1012" lrx="1105" lry="1032" xml:id="Bibl_1_L70"/>
+            <zone ulx="599" uly="1033" lrx="1103" lry="1053" xml:id="Bibl_1_L71"/>
+            <zone ulx="598" uly="1053" lrx="873" lry="1076" xml:id="Bibl_1_L72"/>
+            <zone ulx="626" uly="1077" lrx="1103" lry="1097" xml:id="Bibl_1_L73"/>
+            <zone ulx="596" uly="1097" lrx="1107" lry="1122" xml:id="Bibl_1_L74"/>
+            <zone ulx="599" uly="1122" lrx="1104" lry="1142" xml:id="Bibl_1_L75"/>
+            <zone ulx="596" uly="1142" lrx="1104" lry="1163" xml:id="Bibl_1_L76"/>
+            <zone ulx="599" uly="1163" lrx="1103" lry="1185" xml:id="Bibl_1_L77"/>
+            <zone ulx="598" uly="1185" lrx="1102" lry="1209" xml:id="Bibl_1_L78"/>
+            <zone ulx="598" uly="1207" lrx="1102" lry="1225" xml:id="Bibl_1_L79"/>
+            <zone ulx="597" uly="1227" lrx="1103" lry="1249" xml:id="Bibl_1_L80"/>
+            <zone ulx="598" uly="1250" lrx="1103" lry="1270" xml:id="Bibl_1_L81"/>
+            <zone ulx="596" uly="1270" lrx="1104" lry="1294" xml:id="Bibl_1_L82"/>
+            <zone ulx="595" uly="1294" lrx="1105" lry="1316" xml:id="Bibl_1_L83"/>
+            <zone ulx="599" uly="1317" lrx="1103" lry="1337" xml:id="Bibl_1_L84"/>
+            <zone ulx="599" uly="1336" lrx="1103" lry="1357" xml:id="Bibl_1_L85"/>
+            <zone ulx="599" uly="1357" lrx="1105" lry="1378" xml:id="Bibl_1_L86"/>
+            <zone ulx="598" uly="1378" lrx="1102" lry="1400" xml:id="Bibl_1_L87"/>
+            <zone ulx="599" uly="1400" lrx="1103" lry="1421" xml:id="Bibl_1_L88"/>
+            <zone ulx="598" uly="1423" lrx="1102" lry="1445" xml:id="Bibl_1_L89"/>
+            <zone ulx="599" uly="1445" lrx="1103" lry="1463" xml:id="Bibl_1_L90"/>
+            <zone ulx="599" uly="1463" lrx="1100" lry="1488" xml:id="Bibl_1_L91"/>
+            <zone ulx="600" uly="1489" lrx="1101" lry="1507" xml:id="Bibl_1_L92"/>
+            <zone ulx="599" uly="1509" lrx="1102" lry="1529" xml:id="Bibl_1_L93"/>
+            <zone ulx="598" uly="1532" lrx="1102" lry="1552" xml:id="Bibl_1_L94"/>
+            <zone ulx="596" uly="1552" lrx="1100" lry="1575" xml:id="Bibl_1_L95"/>
+        </surface>
+        <surface xml:id="mappa_bibl_1_2pag"> <!-- Biblio 1, seconda pagina-->
+            <graphic url='img/Vol1-1878-1-S1-F8_biblio_1_page-0017.jpg' width='1150.4px' height='1659.4px' xml:id="bibliografia_1_seconda_pagina"/>
+            <zone ulx="63" uly="104" lrx="568" lry="124" xml:id="Bibl_1_L96"/>
+            <zone ulx="63" uly="123" lrx="567" lry="147" xml:id="Bibl_1_L97"/>
+            <zone ulx="63" uly="148" lrx="568" lry="169" xml:id="Bibl_1_L98"/>
+            <zone ulx="60" uly="168" lrx="565" lry="188" xml:id="Bibl_1_L99"/>
+            <zone ulx="66" uly="188" lrx="565" lry="212" xml:id="Bibl_1_L100"/>
+            <zone ulx="63" uly="213" lrx="563" lry="231" xml:id="Bibl_1_L101"/>
+            <zone ulx="63" uly="232" lrx="565" lry="253" xml:id="Bibl_1_L102"/>
+            <zone ulx="65" uly="254" lrx="566" lry="276" xml:id="Bibl_1_L103"/>
+            <zone ulx="63" uly="276" lrx="564" lry="299" xml:id="Bibl_1_L104"/>
+            <zone ulx="62" uly="296" lrx="567" lry="317" xml:id="Bibl_1_L105"/>
+            <zone ulx="66" uly="318" lrx="566" lry="340" xml:id="Bibl_1_L106"/>
+            <zone ulx="64" uly="340" lrx="565" lry="360" xml:id="Bibl_1_L107"/>
+            <zone ulx="63" uly="360" lrx="566" lry="384" xml:id="Bibl_1_L108"/>
+            <zone ulx="63" uly="383" lrx="170" lry="403" xml:id="Bibl_1_L109"/>
+            <zone ulx="94" uly="403" lrx="566" lry="428" xml:id="Bibl_1_L110"/>
+            <zone ulx="62" uly="427" lrx="563" lry="447" xml:id="Bibl_1_L111"/>
+            <zone ulx="63" uly="447" lrx="566" lry="468" xml:id="Bibl_1_L112"/>
+            <zone ulx="64" uly="468" lrx="566" lry="489" xml:id="Bibl_1_L113"/>
+            <zone ulx="64" uly="490" lrx="563" lry="508" xml:id="Bibl_1_L114"/>
+            <zone ulx="66" uly="512" lrx="566" lry="532" xml:id="Bibl_1_L115"/>
+            <zone ulx="64" uly="531" lrx="565" lry="554" xml:id="Bibl_1_L116"/>
+            <zone ulx="63" uly="553" lrx="567" lry="574" xml:id="Bibl_1_L117"/>
+            <zone ulx="64" uly="579" lrx="567" lry="597" xml:id="Bibl_1_L118"/>
+            <zone ulx="65" uly="600" lrx="562" lry="619" xml:id="Bibl_1_L119"/>
+            <zone ulx="64" uly="621" lrx="563" lry="641" xml:id="Bibl_1_L120"/>
+            <zone ulx="64" uly="641" lrx="565" lry="664" xml:id="Bibl_1_L121"/>
+            <zone ulx="64" uly="664" lrx="565" lry="683" xml:id="Bibl_1_L122"/>
+            <zone ulx="63" uly="684" lrx="566" lry="704" xml:id="Bibl_1_L123"/>
+            <zone ulx="63" uly="706" lrx="276" lry="724" xml:id="Bibl_1_L124"/>
+            <zone ulx="93" uly="725" lrx="563" lry="748" xml:id="Bibl_1_L125"/>
+            <zone ulx="61" uly="749" lrx="567" lry="768" xml:id="Bibl_1_L126"/>
+            <zone ulx="65" uly="768" lrx="565" lry="787" xml:id="Bibl_1_L127"/>
+            <zone ulx="66" uly="788" lrx="565" lry="808" xml:id="Bibl_1_L128"/>
+            <zone ulx="65" uly="812" lrx="566" lry="834" xml:id="Bibl_1_L129"/>
+            <zone ulx="63" uly="832" lrx="567" lry="855" xml:id="Bibl_1_L130"/>
+            <zone ulx="63" uly="856" lrx="565" lry="877" xml:id="Bibl_1_L131"/>
+            <zone ulx="63" uly="878" lrx="564" lry="898" xml:id="Bibl_1_L132"/>
+            <zone ulx="64" uly="899" lrx="566" lry="923" xml:id="Bibl_1_L133"/>
+            <zone ulx="63" uly="924" lrx="565" lry="942" xml:id="Bibl_1_L134"/>
+            <zone ulx="63" uly="943" lrx="565" lry="965" xml:id="Bibl_1_L135"/>
+            <zone ulx="65" uly="965" lrx="566" lry="984" xml:id="Bibl_1_L136"/>
+            <zone ulx="63" uly="985" lrx="565" lry="1008" xml:id="Bibl_1_L137"/>
+            <zone ulx="62" uly="1008" lrx="564" lry="1027" xml:id="Bibl_1_L138"/>
+            <zone ulx="64" uly="1030" lrx="566" lry="1048" xml:id="Bibl_1_L139"/>
+            <zone ulx="63" uly="1047" lrx="563" lry="1069" xml:id="Bibl_1_L140"/>
+            <zone ulx="65" uly="1072" lrx="569" lry="1092" xml:id="Bibl_1_L141"/>
+            <zone ulx="63" uly="1093" lrx="558" lry="1111" xml:id="Bibl_1_L142"/>
+        </surface>
+        <surface xml:id="mappa_bibl_2"> <!-- Biblio 2 -->
+            <graphic url='img/Vol1-1878-1-S1-F8_b2_page-0017.jpg' width='1150.4px' height='1659.4px' xml:id="bibliografia_2"/>
+            <zone ulx="55" uly="1125" lrx="568" lry="1169" xml:id="Bibl_2_titlePart"/>
+            <zone ulx="54" uly="1123" lrx="568" lry="1148" xml:id="Bibl_2_L1"/>
+            <zone ulx="54" uly="1147" lrx="567" lry="1169" xml:id="Bibl_2_L2"/>
+            <zone ulx="53" uly="1181" lrx="566" lry="1201" xml:id="Bibl_2_L3"/>
+            <zone ulx="54" uly="1203" lrx="567" lry="1225" xml:id="Bibl_2_L4"/>
+            <zone ulx="53" uly="1226" lrx="566" lry="1246" xml:id="Bibl_2_L5"/>
+            <zone ulx="54" uly="1247" lrx="565" lry="1267" xml:id="Bibl_2_L6"/>
+            <zone ulx="55" uly="1269" lrx="565" lry="1287" xml:id="Bibl_2_L7"/>
+            <zone ulx="54" uly="1288" lrx="564" lry="1309" xml:id="Bibl_2_L8"/>
+            <zone ulx="56" uly="1311" lrx="566" lry="1332" xml:id="Bibl_2_L9"/>
+            <zone ulx="56" uly="1331" lrx="566" lry="1353" xml:id="Bibl_2_L10"/>
+            <zone ulx="55" uly="1353" lrx="567" lry="1375" xml:id="Bibl_2_L11"/>
+            <zone ulx="55" uly="1375" lrx="566" lry="1396" xml:id="Bibl_2_L12"/>
+            <zone ulx="53" uly="1395" lrx="566" lry="1417" xml:id="Bibl_2_L13"/>
+            <zone ulx="55" uly="1418" lrx="566" lry="1438" xml:id="Bibl_2_L14"/>
+            <zone ulx="54" uly="1438" lrx="167" lry="1459" xml:id="Bibl_2_L15"/>
+            <zone ulx="89" uly="1458" lrx="566" lry="1482" xml:id="Bibl_2_L16"/>
+            <zone ulx="54" uly="1483" lrx="567" lry="1504" xml:id="Bibl_2_L17"/>
+            <zone ulx="55" uly="1503" lrx="567" lry="1526" xml:id="Bibl_2_L18"/>
+            <zone ulx="52" uly="1526" lrx="569" lry="1549" xml:id="Bibl_2_L19"/>
+            <zone ulx="574" uly="101" lrx="1086" lry="128" xml:id="Bibl_2_L20"/>
+            <zone ulx="574" uly="127" lrx="1086" lry="147" xml:id="Bibl_2_L21"/>
+            <zone ulx="574" uly="147" lrx="1087" lry="168" xml:id="Bibl_2_L22"/>
+            <zone ulx="574" uly="168" lrx="1087" lry="191" xml:id="Bibl_2_L23"/>
+            <zone ulx="575" uly="191" lrx="1087" lry="212" xml:id="Bibl_2_L24"/>
+            <zone ulx="575" uly="212" lrx="1087" lry="234" xml:id="Bibl_2_L25"/>
+            <zone ulx="575" uly="234" lrx="1087" lry="255" xml:id="Bibl_2_L26"/>
+            <zone ulx="575" uly="255" lrx="1087" lry="275" xml:id="Bibl_2_L27"/>
+            <zone ulx="575" uly="277" lrx="1087" lry="297" xml:id="Bibl_2_L28"/>
+            <zone ulx="574" uly="298" lrx="1086" lry="319" xml:id="Bibl_2_L29"/>
+            <zone ulx="575" uly="322" lrx="1087" lry="340" xml:id="Bibl_2_L30"/>
+            <zone ulx="575" uly="345" lrx="1087" lry="361" xml:id="Bibl_2_L31"/>
+            <zone ulx="575" uly="362" lrx="1087" lry="384" xml:id="Bibl_2_L32"/>
+            <zone ulx="575" uly="384" lrx="1087" lry="404" xml:id="Bibl_2_L33"/>
+            <zone ulx="575" uly="403" lrx="1087" lry="425" xml:id="Bibl_2_L34"/>
+            <zone ulx="575" uly="425" lrx="1087" lry="446" xml:id="Bibl_2_L35"/>
+            <zone ulx="575" uly="449" lrx="1087" lry="468" xml:id="Bibl_2_L36"/>
+            <zone ulx="574" uly="468" lrx="1087" lry="493" xml:id="Bibl_2_L37"/>
+            <zone ulx="574" uly="492" lrx="1085" lry="513" xml:id="Bibl_2_L38"/>
+            <zone ulx="575" uly="512" lrx="1086" lry="536" xml:id="Bibl_2_L39"/>
+            <zone ulx="575" uly="535" lrx="1087" lry="555" xml:id="Bibl_2_L40"/>
+            <zone ulx="575" uly="556" lrx="1087" lry="578" xml:id="Bibl_2_L41"/>
+            <zone ulx="573" uly="578" lrx="1085" lry="600" xml:id="Bibl_2_L42"/>
+            <zone ulx="576" uly="600" lrx="1086" lry="621" xml:id="Bibl_2_L43"/>
+            <zone ulx="575" uly="621" lrx="1085" lry="641" xml:id="Bibl_2_L44"/>
+            <zone ulx="575" uly="641" lrx="1087" lry="664" xml:id="Bibl_2_L45"/>
+            <zone ulx="575" uly="665" lrx="1084" lry="686" xml:id="Bibl_2_L46"/>
+            <zone ulx="576" uly="685" lrx="1086" lry="707" xml:id="Bibl_2_L47"/>
+            <zone ulx="575" uly="707" lrx="1087" lry="728" xml:id="Bibl_2_L48"/>
+            <zone ulx="575" uly="728" lrx="1087" lry="750" xml:id="Bibl_2_L49"/>
+            <zone ulx="574" uly="749" lrx="1086" lry="772" xml:id="Bibl_2_L50"/>
+            <zone ulx="575" uly="772" lrx="1086" lry="793" xml:id="Bibl_2_L51"/>
+            <zone ulx="577" uly="792" lrx="907" lry="815" xml:id="Bibl_2_L52"/>
+            <zone ulx="605" uly="815" lrx="1084" lry="839" xml:id="Bibl_2_L53"/>
+            <zone ulx="576" uly="837" lrx="1087" lry="861" xml:id="Bibl_2_L54"/>
+            <zone ulx="575" uly="860" lrx="1087" lry="881" xml:id="Bibl_2_L55"/>
+            <zone ulx="576" uly="880" lrx="1087" lry="903" xml:id="Bibl_2_L56"/>
+            <zone ulx="577" uly="904" lrx="1087" lry="924" xml:id="Bibl_2_L57"/>
+            <zone ulx="576" uly="925" lrx="687" lry="943" xml:id="Bibl_2_L58"/>
+        </surface>
+        <surface xml:id="mappa_not_1"> <!-- Notizie 1 -->
+            <graphic url='img/Vol2-1878-2-S2-F7_new_notizie_page-0016.jpg' width='1160.4px' height='1669.4px' xml:id="Not_all" />
+            <zone ulx="805" uly="490" lrx="911" lry="517" xml:id="Not_title"/>
+            <zone ulx="606" uly="518" lrx="1113" lry="1025" xml:id="Not_1_all"/>
+            <zone ulx="603" uly="1025" lrx="1114" lry="1271" xml:id="Not_2_all"/>
+            <zone ulx="601" uly="1282" lrx="1116" lry="1317" xml:id="Not_3_all"/>
+            <zone ulx="604" uly="1321" lrx="1119" lry="1355" xml:id="Not_4_all"/>
+            <zone ulx="603" uly="1361" lrx="1115" lry="1413" xml:id="Not_5_all"/>
+            <zone ulx="605" uly="1426" lrx="1114" lry="1485" xml:id="Not_6_all"/>
+            <zone ulx="626" uly="517" lrx="1112" lry="536" xml:id="Not_1_L1"/>
+            <zone ulx="604" uly="533" lrx="1113" lry="558" xml:id="Not_1_L2"/>
+            <zone ulx="606" uly="556" lrx="1114" lry="576" xml:id="Not_1_L3"/>
+            <zone ulx="609" uly="575" lrx="1111" lry="598" xml:id="Not_1_L4"/>
+            <zone ulx="607" uly="596" lrx="1113" lry="615" xml:id="Not_1_L5"/>
+            <zone ulx="607" uly="613" lrx="1112" lry="632" xml:id="Not_1_L6"/>
+            <zone ulx="607" uly="632" lrx="1112" lry="656" xml:id="Not_1_L7"/>
+            <zone ulx="604" uly="655" lrx="1112" lry="673" xml:id="Not_1_L8"/>
+            <zone ulx="606" uly="674" lrx="1113" lry="694" xml:id="Not_1_L9"/>
+            <zone ulx="606" uly="695" lrx="1112" lry="712" xml:id="Not_1_L10"/>
+            <zone ulx="606" uly="712" lrx="1111" lry="734" xml:id="Not_1_L11"/>
+            <zone ulx="607" uly="734" lrx="1114" lry="752" xml:id="Not_1_L12"/>
+            <zone ulx="604" uly="752" lrx="1113" lry="772" xml:id="Not_1_L13"/>
+            <zone ulx="605" uly="772" lrx="1112" lry="789" xml:id="Not_1_L14"/>
+            <zone ulx="605" uly="788" lrx="1114" lry="811" xml:id="Not_1_L15"/>
+            <zone ulx="604" uly="809" lrx="1112" lry="829" xml:id="Not_1_L16"/>
+            <zone ulx="604" uly="829" lrx="1112" lry="846" xml:id="Not_1_L17"/>
+            <zone ulx="607" uly="847" lrx="1111" lry="867" xml:id="Not_1_L18"/>
+            <zone ulx="605" uly="867" lrx="1111" lry="886" xml:id="Not_1_L19"/>
+            <zone ulx="606" uly="890" lrx="1113" lry="904" xml:id="Not_1_L20"/>
+            <zone ulx="607" uly="908" lrx="1112" lry="924" xml:id="Not_1_L21"/>
+            <zone ulx="605" uly="927" lrx="1112" lry="944" xml:id="Not_1_L22"/>
+            <zone ulx="605" uly="948" lrx="1112" lry="965" xml:id="Not_1_L23"/>
+            <zone ulx="605" uly="968" lrx="1111" lry="984" xml:id="Not_1_L24"/>
+            <zone ulx="606" uly="984" lrx="855" lry="1004" xml:id="Not_1_L25"/>
+            <zone ulx="630" uly="1004" lrx="1110" lry="1024" xml:id="Not_1_L26"/>
+            <zone ulx="623" uly="1025" lrx="1115" lry="1042" xml:id="Not_2_L1"/>
+            <zone ulx="605" uly="1044" lrx="1114" lry="1061" xml:id="Not_2_L2"/>
+            <zone ulx="604" uly="1061" lrx="1114" lry="1078" xml:id="Not_2_L3"/>
+            <zone ulx="604" uly="1080" lrx="1113" lry="1100" xml:id="Not_2_L4"/>
+            <zone ulx="606" uly="1101" lrx="1111" lry="1120" xml:id="Not_2_L5"/>
+            <zone ulx="603" uly="1120" lrx="1111" lry="1141" xml:id="Not_2_L6"/>
+            <zone ulx="603" uly="1141" lrx="1114" lry="1159" xml:id="Not_2_L7"/>
+            <zone ulx="603" uly="1160" lrx="1110" lry="1178" xml:id="Not_2_L8"/>
+            <zone ulx="604" uly="1179" lrx="1112" lry="1196" xml:id="Not_2_L9"/>
+            <zone ulx="603" uly="1199" lrx="1111" lry="1216" xml:id="Not_2_L10"/>
+            <zone ulx="602" uly="1218" lrx="1111" lry="1234" xml:id="Not_2_L11"/>
+            <zone ulx="604" uly="1237" lrx="1113" lry="1254" xml:id="Not_2_L12"/>
+            <zone ulx="606" uly="1254" lrx="699" lry="1274" xml:id="Not_2_L13"/>
+            <zone ulx="623" uly="1280" lrx="1115" lry="1299" xml:id="Not_3_L1"/>
+            <zone ulx="602" uly="1300" lrx="1094" lry="1316" xml:id="Not_3_L2"/>
+            <zone ulx="628" uly="1319" lrx="1118" lry="1336" xml:id="Not_4_L1"/>
+            <zone ulx="604" uly="1336" lrx="1115" lry="1353" xml:id="Not_4_L2"/>
+            <zone ulx="621" uly="1359" lrx="1113" lry="1376" xml:id="Not_5_L1"/>
+            <zone ulx="603" uly="1376" lrx="1113" lry="1394" xml:id="Not_5_L2"/>
+            <zone ulx="607" uly="1396" lrx="983" lry="1413" xml:id="Not_5_L3"/>
+            <zone ulx="627" uly="1425" lrx="1114" lry="1440" xml:id="Not_6_L1"/>
+            <zone ulx="604" uly="1440" lrx="1111" lry="1460" xml:id="Not_6_L2"/>
+            <zone ulx="603" uly="1461" lrx="881" lry="1484" xml:id="Not_6_L3"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <group>
+            <text> <!-- articolo 1 -->
+                <front facs="#Art_1_front">
+                    <docTitle>
+                        <titlePart type="main" facs="#Art_1_title">LE BELLE ARTI</titlePart>
+                        <titlePart type="sub" facs="#Art_1_subtitle">
+                            ALL'ESPOSIZIONE UNIVERSALE DEL <date when="1878">1878</date>.
+                        </titlePart>
+                    </docTitle>
+                    <dateline facs="#Art_1_where_when" rendition="#italic">
+                        <settlement>Parigi</settlement>,
+                        <date when="15/05/1878"> 15 maggio</date>.
+                    </dateline>
+                </front>
+                <body>
+                    <p xml:id="art1_1">
+                        <lb xml:id="Art_1_linea_1" n="1" facs="#Art_1_L1"/>
+                        Avevo intenzione, prima di passare in rivista i lavori no-
+                        <lb xml:id="Art_1_linea_2" n="2" facs="#Art_1_L2"/>
+                        tevoli, di darmi ad uno studio d'insieme nel quale avrei ten-
+                        <lb xml:id="Art_1_linea_3" n="3" facs="#Art_1_L3"/>
+                        tato di fare spiccare i caratteri rilevanti e generali dell'<term>arte <lb xml:id="Art_1_linea_4" n="4" facs="#Art_1_L4"/> contemporanea</term>; 
+                        desideravo mostrare in che cosa differiscono 
+                        <lb xml:id="Art_1_linea_5" n="5" facs="#Art_1_L5"/>
+                        in modo generale le sue manifestazioni secondo i paesi ; ma
+                        <lb xml:id="Art_1_linea_6" n="6" facs="#Art_1_L6"/>
+                        sono costretto a rinunziare a questo disegno ; parecchie 
+                        <lb xml:id="Art_1_linea_7" n="7" facs="#Art_1_L7"/>
+                        Commissioni straniere non hanno terminato ancora, mentre
+                        <lb xml:id="Art_1_linea_8" n="8" facs="#Art_1_L8"/>
+                        scrivo queste righe, i loro lavori di assetto nelle <placeName>sale delle <lb xml:id="Art_1_linea_9" n="9" facs="#Art_1_L9"/>belle arti</placeName>.
+                        Per adesso mi farò a studiare ciascun paese suc-
+                        <lb xml:id="Art_1_linea_10" n="10" facs="#Art_1_L10"/>
+                        cessivamente, mi sforzerò di esaminare dall'alto, e di giu-
+                        <lb xml:id="Art_1_linea_11" n="11" facs="#Art_1_L11"/>
+                        dicare senza preconcetto, facendo astrazione dalle naziona-
+                        <lb xml:id="Art_1_linea_12" n="12" facs="#Art_1_L12"/>
+                        lità. Se mi rammento dell'onore che mi è stato conferito,
+                        <lb xml:id="Art_1_linea_13" n="13" facs="#Art_1_L13"/>
+                        a me <listPerson corresp="#rogerBallu"><person><nationality>francese</nationality></person></listPerson>, di intrattenermi di cose estetiche coi Fio-
+                        <lb xml:id="Art_1_linea_14" n="14" facs="#Art_1_L14"/>
+                        rentini, non devo lasciar dimenticare che per tutti gli ar-
+                        <lb xml:id="Art_1_linea_15" n="15" facs="#Art_1_L15"/>
+                        tisti senza eccezione, l'arte è una patria comune.
+                    </p>
+                    <ab>
+                        <lb xml:id="Art_1_linea_16" n="16" facs="#Art_1_L16"/>
+                        <country key="IT">Italia.</country> — 
+                        <surname xml:id="deNittis">De Nittis</surname>,
+                        <surname xml:id="michetti">Michetti</surname>,
+                        <surname xml:id="bompiani">Bompiani</surname>,
+                        <surname xml:id="miola">Miola</surname>.
+                    </ab>
+                    <p xml:id="art1_2">
+                        <lb xml:id="Art_1_linea_17" n="17" facs="#Art_1_L17"/>
+                        I lavori esposti nella <rs type="place">Sezione italiana</rs> sono numerosi, <cb />
+                        <lb xml:id="Art_1_linea_18" n="18" facs="#Art_1_L18"/>
+                        e firmati da nomi noti per la massima parte in <country>Fran-<lb xml:id="Art_1_linea_19" n="19" facs="#Art_1_L19"/>cia</country>. 
+                        La <term xml:id="scuolaModerna">scuola moderna</term> è rappresentata in maniera degna
+                        <lb xml:id="Art_1_linea_20" n="20" facs="#Art_1_L20"/>
+                        di <rs corresp="#scuolamoderna">lei</rs>, e si può giudicarla, senza timore, secondo l'in-
+                        <lb xml:id="Art_1_linea_21" n="21" facs="#Art_1_L21"/>
+                        sieme che presenta ai visitatori. Se la <term>pittura di storia</term>
+                        <lb xml:id="Art_1_linea_22" n="22" facs="#Art_1_L22"/>
+                        sembra caduta in discredito, per contro <term>quella di genere</term>
+                        <lb xml:id="Art_1_linea_23" n="23" facs="#Art_1_L23"/>
+                        domina; essa vi regna sovrana, e gl'ingegni che militano
+                        <lb xml:id="Art_1_linea_24" n="24" facs="#Art_1_L24"/>
+                        nelle sue schiere, attestano la legittimità del suo impero.
+                        <lb xml:id="Art_1_linea_25" n="25" facs="#Art_1_L25"/>
+                        Percorrenditiono cogli occhi i diversi quadri affine di provare
+                        <lb xml:id="Art_1_linea_26" n="26" facs="#Art_1_L26"/>
+                        una prima impressione generale, osserviamo subito che
+                        <lb xml:id="Art_1_linea_27" n="27" facs="#Art_1_L27"/>
+                        risaltano due qualità : un sentimento vero e come innato
+                        <lb xml:id="Art_1_linea_28" n="28" facs="#Art_1_L28"/>
+                        del colorito, ed una notevolissima ricerca di splendore.
+                        <lb xml:id="Art_1_linea_29" n="29" facs="#Art_1_L29"/>
+                        Talvolta questo splendore conduce alla confusione, la ri-
+                        <lb xml:id="Art_1_linea_30" n="30" facs="#Art_1_L30"/>
+                        cerca è spinta tropp'oltre, ma quasi sempre si ricono-
+                        <lb xml:id="Art_1_linea_31" n="31" facs="#Art_1_L31"/>
+                        scono i benefizi di quel sole maraviglioso d'<country>Italia</country> di cui la
+                        <lb xml:id="Art_1_linea_32" n="32" facs="#Art_1_L32"/>
+                        luce è sì ricca e sì feconda per l'arte. In quanto alla <term>com-<lb xml:id="Art_1_linea_33" n="33" facs="#Art_1_L33"/>posizione</term>, 
+                        è una qualità più personale, della quale non è
+                        <lb xml:id="Art_1_linea_34" n="34" facs="#Art_1_L34"/>
+                        possibile fare il carattere distintivo di una <term>scuola</term>, perchè
+                        <lb xml:id="Art_1_linea_35" n="35" facs="#Art_1_L35"/>
+                        ordinariamente appartiene all'individuo in proprio.
+                    </p>
+                    <p xml:id="art1_3">
+                        <lb xml:id="Art_1_linea_36" n="36" facs="#Art_1_L36"/>
+                        Potrei confermare il rapido giudizio che ho ora formu-
+                        <lb xml:id="Art_1_linea_37" n="37" facs="#Art_1_L37"/>
+                        lato citando i quadri che me lo hanno ispirato, ma prefe-
+                        <lb xml:id="Art_1_linea_38" n="38" facs="#Art_1_L38"/>
+                        risco cominciare dal 
+                        <surname corresp="#deNittis">De Nittis</surname> e consacrare le mie prime
+                        <lb xml:id="Art_1_linea_39" n="39" facs="#Art_1_L39"/>
+                        linee allo studio di questo ingegno sì fine e delicato.
+                    </p>
+                    <p xml:id="art1_4">
+                        <lb xml:id="Art_1_linea_40" n="40" facs="#Art_1_L40"/>
+                        Ho riveduto con un vero piacere di dilettante il quadro
+                        <lb xml:id="Art_1_linea_41" n="41" facs="#Art_1_L41"/>
+                        chiamato la <objectName xml:id="LaStradaDiBrindisi" rendition="#italic">Strada di Brindisi</objectName>. L'<rs corresp="#deNittis">artista</rs>, se non erro, deve
+                        <lb xml:id="Art_1_linea_42" n="42" facs="#Art_1_L42"/>
+                        la sua reputazione a questa tela che è realmente un'opera
+                        <lb xml:id="Art_1_linea_43" n="43" facs="#Art_1_L43"/>
+                        eccellente. In una strada maestra bianca, inondata di sole,
+                        <lb xml:id="Art_1_linea_44" n="44" facs="#Art_1_L44"/>
+                        è ferma una berlina da viaggio ; il postiglione disceso dal
+                        <lb xml:id="Art_1_linea_45" n="45" facs="#Art_1_L45"/>
+                        sedile e piegato allo sportello discorre coi viaggiatori; <offset>un
+                        <lb xml:id="Art_1_linea_46" n="46" facs="#Art_1_L46"/>
+                        poco a sinistra</offset> passano <rs type="people" xml:id="contadiniBrindisi">due contadini</rs> ; <offset>ai due lati</offset> cespugli
+                        <lb xml:id="Art_1_linea_47" n="47" facs="#Art_1_L47"/>
+                        stenti e giallastri fiancheggiano un fiumicello serpeggiante.
+                        <lb xml:id="Art_1_linea_48" n="48" facs="#Art_1_L48"/>
+                        Ecco tutto il soggetto : certamente l'interesse manca ; ma
+                        <lb xml:id="Art_1_linea_49" n="49" facs="#Art_1_L49"/>
+                        bisogna vedere la trasparenza dell'atmosfera di quel cielo
+                        <lb xml:id="Art_1_linea_50" n="50" facs="#Art_1_L50"/>
+                        d'estate, lo splendore luminoso, i raggi abbaglianti di quel
+                        <lb xml:id="Art_1_linea_51" n="51" facs="#Art_1_L51"/>
+                        sole inesorabile che dardeggia su quella strada riarsa, pol-
+                        <lb xml:id="Art_1_linea_52" n="52" facs="#Art_1_L52"/>
+                        verosa, della quale non si scorge la fine. Le figure, malgrado
+                        <lb xml:id="Art_1_linea_53" n="53" facs="#Art_1_L53"/>
+                        la loro piccolezza, hanno un profilo grazioso e sono disegnate
+                        <lb xml:id="Art_1_linea_54" n="54" facs="#Art_1_L54"/>
+                        con spirito ; i <rs type="people" corresp="#contadiniBrindisi">contadini</rs> oppressi dalla stanchezza, ricoperti
+                        <lb xml:id="Art_1_linea_55" n="55" facs="#Art_1_L55"/>
+                        di polvere staccano sulla bianchezza della strada, mentre che
+                        <lb xml:id="Art_1_linea_56" n="56" facs="#Art_1_L56"/>
+                        le magre brenne del calesse fermo sembrano rifinite e este-
+                        <lb xml:id="Art_1_linea_57" n="57" facs="#Art_1_L57"/>
+                        nuate. — È un'opera completa tanto dal punto di vista del
+                        <lb xml:id="Art_1_linea_58" n="58" facs="#Art_1_L58"/>
+                        disegno e del colorito, quanto da quello della <term>composizione</term>
+                        <lb xml:id="Art_1_linea_59" n="59" facs="#Art_1_L59"/>
+                        che concorre mirabilmente colla sobrietà dei particolari a
+                        <lb xml:id="Art_1_linea_60" n="60" facs="#Art_1_L60"/>
+                        produrre questa triplice impressione di calore ardente, di
+                        <lb xml:id="Art_1_linea_61" n="61" facs="#Art_1_L61"/>
+                        siccità arida e di luce raggiante.
+                    </p>
+                    <p xml:id="art1_5">
+                        <lb xml:id="Art_1_linea_62" n="62" facs="#Art_1_L62"/>
+                        Gli altri undici quadri esposti da <rs type="person" corresp="#deNittis">quell'artista</rs> appar-
+                        <lb xml:id="Art_1_linea_63" n="63" facs="#Art_1_L63"/>
+                        tengono ad un genere assolutamente diverso : non è più
+                        <lb xml:id="Art_1_linea_64" n="64" facs="#Art_1_L64"/>
+                        coi colori vivaci, coll'azzurro cupo del cielo nella <rs type="place">campa-
+                        <lb xml:id="Art_1_linea_65" n="65" facs="#Art_1_L65"/>
+                        gna italiana</rs> che il 
+                        <persName corresp="#deNittis">
+                            <roleName>signor</roleName> 
+                            <surname>De Nittis</surname>
+                        </persName> ci vuol sedurre ; egli
+                        <lb xml:id="Art_1_linea_66" n="66" facs="#Art_1_L66"/>
+                        lascia i vasti orizzonti e c'introduce nei quartieri popolosi
+                        <lb xml:id="Art_1_linea_67" n="67" facs="#Art_1_L67"/>
+                        di <settlement>Parigi</settlement> o di <settlement>Londra</settlement>. Egli ci fa prenditionere interesse ai
+                        <lb xml:id="Art_1_linea_68" n="68" facs="#Art_1_L68"/>
+                        profili grigi dei monumenti che si disegnano sul cielo, al-
+                        <lb xml:id="Art_1_linea_69" n="69" facs="#Art_1_L69"/>
+                        l'andirivieni della folla, alle nebbie della <foreign xml:lang="en" rendition="#italic">city</foreign> inglese, alle
+                        <lb xml:id="Art_1_linea_70" n="70" facs="#Art_1_L70"/>
+                        vedute pittoresche dei <foreign xml:lang="fr" rendition="#italic">quais</foreign> della <geogName>Senna</geogName>. Prima inondava la
+                        <lb xml:id="Art_1_linea_71" n="71" facs="#Art_1_L71"/>
+                        sua tela di sole, ora il suo pennello bagna gli oggetti che
+                        <lb xml:id="Art_1_linea_72" n="72" facs="#Art_1_L72"/>
+                        riproduce di quel vapore ceruleo e diffuso del quale rice-
+                        <lb xml:id="Art_1_linea_73" n="73" facs="#Art_1_L73"/>
+                        viamo l'impressione nelle <rs type="place">strade delle grandi città</rs>. — La
+                        <lb xml:id="Art_1_linea_74" n="74" facs="#Art_1_L74"/>
+                        scena è del tutto cambiata, ma le qualità del <rs corresp="#deNittis">pittore</rs> sono
+                        <lb xml:id="Art_1_linea_75" n="75" facs="#Art_1_L75"/>
+                        le medesime. Spirito sottile ed osservatore, il 
+                        <persName corresp="#deNittis">
+                            <roleName>signor</roleName> 
+                            <surname>De <lb xml:id="Art_1_linea_76" n="76" facs="#Art_1_L76"/>Nittis</surname>
+                        </persName> 
+                        disegna con sentimento; ed oltre a ciò produce l'ef-
+                       <lb xml:id="Art_1_linea_77" n="77" facs="#Art_1_L77"/>
+                       fetto voluto con una fedeltà sorprenditionente. Guardate, per
+                       <lb xml:id="Art_1_linea_78" n="78" facs="#Art_1_L78"/>
+                        esempio : <objectName xml:id="ParigiVistaDalPontRoyal" rendition="#italic">Parigi vista dal Pont Royal</objectName>. I tipi dei viandanti,
+                        <lb xml:id="Art_1_linea_79" n="79" facs="#Art_1_L79"/>
+                        che camminano lungo l'argine, in mezzo alle vetture sotto
+                        <lb xml:id="Art_1_linea_80" n="80" facs="#Art_1_L80"/>
+                        gli alberi grigi e spogliati, sono di una verità inimitabile ;
+                        <lb xml:id="Art_1_linea_81" n="81" facs="#Art_1_L81"/>
+                        a forza di naturalezza riescono divertevoli senza divenire
+                        <lb xml:id="Art_1_linea_82" n="82" facs="#Art_1_L82"/>
+                        comici; tutta quella folla si muove, va, viene, si spinge
+                        <lb xml:id="Art_1_linea_83" n="83" facs="#Art_1_L83"/>
+                        senza confusione; ciascuno ha la sua andatura distinta,
+                        <lb xml:id="Art_1_linea_84" n="84" facs="#Art_1_L84"/>
+                        il suo atteggiamento individuale, i suoi gesti particolari. <pb />
+                        <lb xml:id="Art_1_linea_85" n="85" facs="#Art_1_L85"/>
+                        Il paesaggio che si estende <offset>a sinistra e nel fondo</offset>, è pieno
+                        <lb xml:id="Art_1_linea_86" n="86" facs="#Art_1_L86"/>
+                        di attrattiva: le <placeName>Tuileries</placeName>, il <placeName>Louvre</placeName> fuggono nella prospet-
+                        <lb xml:id="Art_1_linea_87" n="87" facs="#Art_1_L87"/>
+                        tiva macchiata qua e là dal fumo di un battello a vapore,
+                        <lb xml:id="Art_1_linea_88" n="88" facs="#Art_1_L88"/>
+                        sopra alle onde della <geogName>Senna</geogName> apparisce il 
+                        <placeName>Ponte dei 
+                            <foreign xml:lang="fr" rendition="#italic">Saints-<lb xml:id="Art_1_linea_89" n="89" facs="#Art_1_L89"/>Pères</foreign>
+                        </placeName>, poi, <offset>più indietro ancora</offset>, mezzo perdute nei vapori
+                        <lb xml:id="Art_1_linea_90" n="90" facs="#Art_1_L90"/>
+                        della distanza, sorgono le torri di <placeName><foreign xml:lang="fr" rendition="#italic">Notre-Dame</foreign></placeName> e sembrano
+                        <lb xml:id="Art_1_linea_91" n="91" facs="#Art_1_L91"/>
+                        collocate là per formare il fondo della composizione.
+                    </p>
+                    <p xml:id="art1_6">
+                        <lb xml:id="Art_1_linea_92" n="92" facs="#Art_1_L92"/>
+                        <objectName xml:id="Cannonbridge">La veduta di Londra: <placeName rendition="#italic">Cannon Bridge</placeName></objectName> è piuttosto uno
+                        <lb xml:id="Art_1_linea_93" n="93" facs="#Art_1_L93"/>
+                        studio che un quadro. Con un tempo di nebbia nera e folta,
+                        <lb xml:id="Art_1_linea_94" n="94" facs="#Art_1_L94"/>
+                        il <rs corresp="#deNittis">pittore</rs> c'introduce sotto un ponte di cui le arcate sono
+                        <lb xml:id="Art_1_linea_95" n="95" facs="#Art_1_L95"/>
+                        piene del fumo di una strada ferrata. Vedo bene l'idea del-
+                        <lb xml:id="Art_1_linea_96" n="96" facs="#Art_1_L96"/>
+                        l'<rs corresp="#deNittis">autore</rs> : si è studiato di distinguere il grigio del fumo dal
+                        <lb xml:id="Art_1_linea_97" n="79" facs="#Art_1_L97"/>
+                        grigio della nebbia, o per dir meglio, di farli incontrare
+                        <lb xml:id="Art_1_linea_98" n="98" facs="#Art_1_L98"/>
+                        senza confonderli. Come ricerca di colorista, il tentativo
+                        <lb xml:id="Art_1_linea_99" n="99" facs="#Art_1_L99"/>
+                        era interessante, ma io non credo che il pubblico sia sen-
+                        <lb xml:id="Art_1_linea_100" n="100" facs="#Art_1_L100"/>
+                        sibile a questa prova che mi sembra un po' <emph rendition="#italic">speciale.</emph> Tut-
+                        <lb xml:id="Art_1_linea_101" n="101" facs="#Art_1_L101"/>
+                        tavia conviene segnalare la verità di tuono dell'insieme,
+                        <lb xml:id="Art_1_linea_102" n="102" facs="#Art_1_L102"/>
+                        verità che colpisce e che del resto si ritrova nella tela chia-
+                        <lb xml:id="Art_1_linea_103" n="103" facs="#Art_1_L103"/>
+                        mata <objectName xml:id="westminster"><placeName rendition="#italic">Westminster</placeName></objectName>.
+                    </p>
+                    <p xml:id="art1_7">
+                        <lb xml:id="Art_1_linea_104" n="104" facs="#Art_1_L104"/>
+                        Questo lavoro è di un effetto sorprenditionente: esso appar-
+                        <lb xml:id="Art_1_linea_105" n="105" facs="#Art_1_L105"/>
+                        tiene anzi ad un'arte superiore perchè ha un carattere
+                        <lb xml:id="Art_1_linea_106" n="106" facs="#Art_1_L106"/>
+                        grande ed è semplice. Dei <rs type="people" xml:id="marinari">marinari</rs> colle gomita appog-
+                        <lb xml:id="Art_1_linea_107" n="107" facs="#Art_1_L107"/>
+                        giate sul parapetto di un ponte contemplano il <geogName>Tamigi</geogName> ; il
+                        <lb xml:id="Art_1_linea_108" n="108" facs="#Art_1_L108"/>
+                        fiume corre cupo e gli <rs corresp="#marinari">uomini</rs> appariscono come dietro
+                        <lb xml:id="Art_1_linea_109" n="109" facs="#Art_1_L109"/>
+                        un velo grigiastro. La nebbia densa agguaglia tutto sotto
+                        <lb xml:id="Art_1_linea_110" n="110" facs="#Art_1_L110"/>
+                        la sua tinta trista e lugubre. Nessuna nota di colore viene
+                        <lb xml:id="Art_1_linea_111" n="111" facs="#Art_1_L111"/>
+                        a risvegliare questa incerta oscurità; sulla riva opposta
+                        <lb xml:id="Art_1_linea_112" n="112" facs="#Art_1_L112"/>
+                        del <geogName>Tamigi</geogName>, <placeName>Westminster</placeName> erge il grave profilo: i piani ed
+                        <lb xml:id="Art_1_linea_113" n="113" facs="#Art_1_L113"/>
+                        i particolari, confusi nella nebbia gelosa, sono spariti : non
+                        <lb xml:id="Art_1_linea_114" n="114" facs="#Art_1_L114"/>
+                        si vede più che una massa nera i cui severi contorni si
+                        <lb xml:id="Art_1_linea_115" n="115" facs="#Art_1_L115"/>
+                        disegnano nel cielo. Havvi qualche cosa di tragico in
+                        <lb xml:id="Art_1_linea_116" n="116" facs="#Art_1_L116"/>
+                        questa desolazione generale prodotta dall'impiego uniforme
+                        <lb xml:id="Art_1_linea_117" n="117" facs="#Art_1_L117"/>
+                        dei colori scuri, dei quali i diversi valori sono distribuiti
+                        <lb xml:id="Art_1_linea_118" n="118" facs="#Art_1_L118"/>
+                        con tanta arte, che tutti concorrono ad un effetto unico
+                        <lb xml:id="Art_1_linea_119" n="119" facs="#Art_1_L119"/>
+                        senza confusione e senza monotonia.
+                    </p>
+                    <p xml:id="art1_8">
+                        <lb xml:id="Art_1_linea_120" n="120" facs="#Art_1_L120"/>
+                        Con mio gran dispiacere non posso passare in rivista
+                        <lb xml:id="Art_1_linea_121" n="121" facs="#Art_1_L121"/>
+                        tutti i quadri esposti dal <persName corresp="#deNittis"><roleName>signor</roleName> <surname>De Nittis</surname></persName> ; mi premeva par-
+                        <lb xml:id="Art_1_linea_122" n="122" facs="#Art_1_L122"/>
+                        lare di quelli che potevano dare una idea degli aspetti di-
+                        <lb xml:id="Art_1_linea_123" n="123" facs="#Art_1_L123"/>
+                        versi sotto i quali si presenta il suo ingegno : ma il suo
+                        <lb xml:id="Art_1_linea_124" n="124" facs="#Art_1_L124"/>
+                        ingegno è in pari tempo così svariato e così originale!
+                        <lb xml:id="Art_1_linea_125" n="125" facs="#Art_1_L125"/>
+                        Quale piacere avrei a descrivere il colpo d'occhio incante-
+                        <lb xml:id="Art_1_linea_126" n="126" facs="#Art_1_L126"/>
+                        vole di <objectName><placeName rendition="#italic">Green Park</placeName></objectName>: 
+                        Una <rs type="person">giovanetta</rs> seduta in una barca
+                        <lb xml:id="Art_1_linea_127" n="127" facs="#Art_1_L127"/>
+                        scivola sulle acque di un lago ove si riflette il sole mattu-
+                        <lb xml:id="Art_1_linea_128" n="128" facs="#Art_1_L128"/>
+                        tino, mentre i gruppi di alberi all'intorno sono illuminati da
+                        <lb xml:id="Art_1_linea_129" n="129" facs="#Art_1_L129"/>
+                        un riverbero roseo e dorato. Ma è tempo di rivolgerci altrove.
+                    </p>
+                    <p xml:id="art1_9">
+                        <lb xml:id="Art_1_linea_130" n="130" facs="#Art_1_L130"/>
+                        I visitatori si fermano davanti al quadro del 
+                        <persName corresp="#michetti">
+                            <roleName>signor </roleName>
+                            <surname>Mi-<lb xml:id="Art_1_linea_131" n="131" facs="#Art_1_L131"/>chetti</surname>
+                        </persName>, <objectName rendition="#italic" xml:id="primaveraEAmore">Primavera e Amore</objectName>; guardano a lungo, e poi si met-
+                        <lb xml:id="Art_1_linea_132" n="132" facs="#Art_1_L132"/>
+                        tono a conversare sommesso ; la prima impressione è la
+                        <lb xml:id="Art_1_linea_133" n="133" facs="#Art_1_L133"/>
+                        sorpresa, gli occhi sono in certa maniera abbagliati a prima
+                        <lb xml:id="Art_1_linea_134" n="134" facs="#Art_1_L134"/>
+                        giunta dalla violenza dello splendore, poi si assuefanno, e
+                        <lb xml:id="Art_1_linea_135" n="135" facs="#Art_1_L135"/>
+                        finalmente afferrano le qualità poco comuni di questo la-
+                        <lb xml:id="Art_1_linea_136" n="136" facs="#Art_1_L136"/>
+                        voro singolarmente attraente. Immaginate in un mattino
+                        <lb xml:id="Art_1_linea_137" n="137" facs="#Art_1_L137"/>
+                        raggiante, scintillante di sole, sopra una collina verde che
+                        <lb xml:id="Art_1_linea_138" n="138" facs="#Art_1_L138"/>
+                        sovrasta al mare, una turba di <rs type="people">fanciulli</rs> nudi che ruzzano
+                        <lb xml:id="Art_1_linea_139" n="139" facs="#Art_1_L139"/>
+                        in libertà, senza altra guida che la loro fantasia spensierata
+                        <lb xml:id="Art_1_linea_140" n="140" facs="#Art_1_L140"/>
+                        e si abbandonano ai loro trasporti, pazzi di gioia, ebbri
+                        <lb xml:id="Art_1_linea_141" n="141" facs="#Art_1_L141"/>
+                        dell'inconscio piacere di vivere e di sollazzarsi alle prime
+                        <lb xml:id="Art_1_linea_142" n="142" facs="#Art_1_L142"/>
+                        aure della reduce primavera! <offset>Al disotto</offset> apparisce il mare
+                        <lb xml:id="Art_1_linea_143" n="143" facs="#Art_1_L143"/>
+                        cosperso qua e là di vele bianche, e va a raggiungere il
+                        <lb xml:id="Art_1_linea_144" n="144" facs="#Art_1_L144"/>
+                        cielo di cui l'azzurro è più pallido, di guisa che tutte quelle
+                        <lb xml:id="Art_1_linea_145" n="145" facs="#Art_1_L145"/>
+                        nudità infantili si staccano da quel fondo cilestro. Uno si
+                        <lb xml:id="Art_1_linea_146" n="146" facs="#Art_1_L146"/>
+                        rotola in terra, l'altro in piedi colla testa coronata di fiori
+                        <lb xml:id="Art_1_linea_147" n="147" facs="#Art_1_L147"/>
+                        si prepara a spiccare un salto, altri si arrampicano sopra un
+                        <lb xml:id="Art_1_linea_148" n="148" facs="#Art_1_L148"/>
+                        grande albero i di cui rami tuttora senza foglie sono coperti
+                        <lb xml:id="Art_1_linea_149" n="149" facs="#Art_1_L149"/>
+                        di gemme prossime a sbocciare. In tutta questa scena, che
+                        <lb xml:id="Art_1_linea_150" n="150" facs="#Art_1_L150"/>
+                        sembra appartenere al paese dei sogni, v'è una sovrab-
+                        <lb xml:id="Art_1_linea_151" n="151" facs="#Art_1_L151"/>
+                        bondanza di colorito, un senso di aria aperta e di gran<cb />
+                        <lb xml:id="Art_1_linea_152" n="152" facs="#Art_1_L152"/>
+                        sole, una esagerazione di luce che senza dubbio rivelano
+                        <lb xml:id="Art_1_linea_153" n="153" facs="#Art_1_L153"/>
+                        nel 
+                        <persName corresp="#michetti">
+                            <roleName>signor</roleName> 
+                            <surname>Michetti</surname>
+                        </persName> una prodigiosa abilità, ma che costi-
+                        <lb xml:id="Art_1_linea_154" n="154" facs="#Art_1_L154"/>
+                        tuiscono un pericolo per <persName corresp="#michetti">l'artista</persName>, e per coloro che voles-
+                        <lb xml:id="Art_1_linea_155" n="155" facs="#Art_1_L155"/>
+                        sero imitare la sua maniera. Non v'è forse un deliberato
+                        <lb xml:id="Art_1_linea_156" n="156" facs="#Art_1_L156"/>
+                        proposito di fare cose strane, di distinguersi dal comune
+                        <lb xml:id="Art_1_linea_157" n="157" facs="#Art_1_L157"/>
+                        dei pittori, di permettersi tutto, di tutto osare ? So benis-
+                        <lb xml:id="Art_1_linea_158" n="158" facs="#Art_1_L158"/>
+                        simo che in queste licenze ed in quest'auducia, vi sono
+                        <lb xml:id="Art_1_linea_159" n="159" facs="#Art_1_L159"/> 
+                        qualità di prim'ordine, ma quanto meglio non sarebbero
+                        <lb xml:id="Art_1_linea_160" n="160" facs="#Art_1_L160"/>
+                        queste impiegate in servizio di una immaginazione meno
+                        <lb xml:id="Art_1_linea_161" n="161" facs="#Art_1_L161"/>
+                        disordinata e più savia ! Che il <persName corresp="#michetti"><roleName>signor</roleName> <surname>Michetti</surname></persName> faccia atten-
+                        <lb xml:id="Art_1_linea_162" n="162" facs="#Art_1_L162"/>
+                        zione : egli ha troppa fiducia nelle proprie forze : in questo
+                        <lb xml:id="Art_1_linea_163" n="163" facs="#Art_1_L163"/>
+                        momento ei si trova al limite estremo passato il quale inciam-
+                        <lb xml:id="Art_1_linea_164" n="164" facs="#Art_1_L164"/>
+                        perà e cadrà nell'inverosimile, non dico nel ridicolo. Peccato
+                        <lb xml:id="Art_1_linea_165" n="165" facs="#Art_1_L165"/>
+                        che <rs corresp="#michetti">questo pittore</rs> con tante ammirabili qualità di colorista
+                        <lb xml:id="Art_1_linea_166" n="166" facs="#Art_1_L166"/>
+                        si tenga fuori delle tradizioni dell'arte sana ed elevata !
+                    </p>
+                    <p xml:id="art1_10">
+                     <lb xml:id="Art_1_linea_167" n="167" facs="#Art_1_L167"/>
+                        Non farò quest'ultimo rimprovero al <objectName rendition="#italic" xml:id="ritrattoDonna">Ritratto di donna</objectName>
+                        <lb xml:id="Art_1_linea_168" n="168" facs="#Art_1_L168"/>
+                        esposto dal 
+                        <persName corresp="#bompiani">
+                            <roleName>signor</roleName> 
+                            <surname>Bompiani</surname>
+                        </persName>. Il metodo è eccellente. Il di-
+                        <lb xml:id="Art_1_linea_169" n="169" facs="#Art_1_L169"/>
+                        segno molto marcato e nello stesso tempo sicuro e svelto.
+                        <lb xml:id="Art_1_linea_170" n="170" facs="#Art_1_L170"/>
+                        La testa di un eccellente modello è di una grande attrat-
+                        <lb xml:id="Art_1_linea_171" n="171" facs="#Art_1_L171"/>
+                        tiva; i panneggiamenti e le pieghe del raso sono trattate
+                        <lb xml:id="Art_1_linea_172" n="172" facs="#Art_1_L172"/>
+                        largamente ; tuttavia deploro il tono molle e senza accenti
+                        <lb xml:id="Art_1_linea_173" n="173" facs="#Art_1_L173"/>
+                        della tenda giallastra che <rs corresp="#bompiani">l'artista</rs> ha creduto dover disporre
+                        <lb xml:id="Art_1_linea_174" n="174" facs="#Art_1_L174"/>
+                        dietro il viso incantevole del suo modello.
+                    </p>
+                    <p xml:id="art1_11">
+                        <lb xml:id="Art_1_linea_175" n="175" facs="#Art_1_L175"/>
+                        <objectName xml:id="orazioInVilla" rendition="#italic">Orazio in villa</objectName> del 
+                        <persName corresp="#miola">
+                            <roleName>signor</roleName> 
+                            <surname>Miola</surname>
+                        </persName>, è un'opera che inte-
+                        <lb xml:id="Art_1_linea_176" n="176" facs="#Art_1_L176"/>
+                        ressa dal punto di vista dei particolari archeologici, di cui
+                        <lb xml:id="Art_1_linea_177" n="177" facs="#Art_1_L177"/>
+                        l'<rs corresp="#miola"><choice><abbr>A.</abbr><expan cert="low">Artista</expan></choice></rs> ama generalmente di ornare i suoi quadri. Sulla so-
+                        <lb xml:id="Art_1_linea_178" n="178" facs="#Art_1_L178"/>
+                        glia di una casa antica, decorata di pitture di <term>stile pom-
+                        <lb xml:id="Art_1_linea_179" n="179" facs="#Art_1_L179"/>
+                        peiano</term>, alcuni personaggi vuotano un'anfora in certe tazze.
+                        <lb xml:id="Art_1_linea_180" n="180" facs="#Art_1_L180"/>
+                        <quote xml:lang="latin">«Spumante plena falerno pocula»</quote> ha detto il <rs type="person">poeta</rs>. Tutti
+                        <lb xml:id="Art_1_linea_181" n="181" facs="#Art_1_L181"/>
+                        si danno premura per fare le loro libazioni a <persName type="divinity">Bacco</persName>. In un
+                        <lb xml:id="Art_1_linea_182" n="182" facs="#Art_1_L182"/>
+                        boschetto un <rs type="divinity">Dio Termine</rs> ride nella sua figura di pietra.
+                        <lb xml:id="Art_1_linea_183" n="183" facs="#Art_1_L183"/>
+                        Questi particolari sono divertevoli e spiritosi ; il colorito
+                        <lb xml:id="Art_1_linea_184" n="184" facs="#Art_1_L184"/>
+                        generale sfugge alla critica; ma i nudi sembrano un po' duri,
+                        <lb xml:id="Art_1_linea_185" n="185" facs="#Art_1_L185"/>
+                        magri e senza grazia: vi sono qua e là membra che man-
+                        <lb xml:id="Art_1_linea_186" n="186" facs="#Art_1_L186"/>
+                        cano di sveltezza; avrei voluto che il 
+                        <persName corresp="#miola"><roleName>signor </roleName><surname>Miola</surname></persName> si ram-
+                        <lb xml:id="Art_1_linea_187" n="187" facs="#Art_1_L187"/>
+                        mentasse delle belle proporzioni dei corpi antichi e delle
+                        <lb xml:id="Art_1_linea_188" n="188" facs="#Art_1_L188"/>
+                        <term>eleganze efebiche</term>.
+                    </p>
+                    <p xml:id="art1_12">
+                        <lb xml:id="Art_1_linea_189" n="189" facs="#Art_1_L189"/>
+                        Mi manca lo spazio per intrattenere i lettori sui note-
+                        <lb xml:id="Art_1_linea_190" n="190" facs="#Art_1_L190"/>
+                        voli lavori del 
+                        <persName corresp="#casini">
+                            <roleName>signor</roleName> 
+                            <surname>Casini</surname>
+                        </persName>: consacrerò loro il principio
+                        <lb xml:id="Art_1_linea_191" n="191" facs="#Art_1_L191"/>
+                        del mio prossimo articolo.
+                    </p>
+                </body>
+                <back>
+                    <signed facs="#Art_1_signed"><persName corresp="#rogerBallu"><forename>ROGER</forename>-<surname>BALLU.</surname></persName></signed>
+                </back>
+            </text>
+            <text> <!-- articolo 2 -->
+                <front>
+                    <docTitle>
+                            <titlePart facs="#Art_2_titlePart">DELLA VOCE GENOVESE « <term xml:id="intendiò" xml:lang="genovese">INTENDIÒ</term>. »</titlePart>
+                    </docTitle>
+                </front>
+                <body>
+                    <p facs="#Art_2_dedication">Ai Direttori.</p>
+                    <p xml:id="art2_1">
+                        <lb xml:id="Art_2_linea_1" n="1" facs="#Art_2_L1"/>
+                        A meglio chiarire che la voce « <term corresp="#intendiò" xml:lang="genovese">intendiò</term> » adoperata
+                        <lb xml:id="Art_2_linea_2" n="2" facs="#Art_2_L2"/> da 
+                        <persName xml:id="jeandAuton"><forename>Jean</forename> <surname>d'Auton</surname></persName> *
+                        <note place="bottom left" facs="#Art_2_note">V. 
+                            <bibl>
+                                <title rendition="#italic">Rassegna</title>, 
+                                <biblScope unit="issue">n. 62</biblScope>, 
+                                <biblScope unit="page">p. 188.</biblScope>
+                            </bibl>
+                        </note> è realmente genovese e vale quanto
+                        <lb xml:id="Art_2_linea_3" n="3" facs="#Art_2_L3"/>
+                        <gloss xml:id="significatoIntendiò" target="#intendiò" rendition="#italic">amoroso, vagheggiatore, galante</gloss>; gioverà questo passo del
+                        <cit>
+                            <bibl xml:id="novelle26_2">
+                                <lb xml:id="Art_2_linea_4" n="4" facs="#Art_2_L4"/>
+                                <author><surname xml:id="matteoBandello"> Bandello</surname></author> nella 
+                                <biblScope unit="part">novella XXVI</biblScope> della 
+                                <biblScope unit="part">parte II</biblScope>,
+                                ove si narra 
+                                <lb xml:id="Art_2_linea_5" n="5" facs="#Art_2_L5"/>
+                                degli amori di 
+                                <persName role="fictional">
+                                    <forename>Luchino</forename> 
+                                    <surname>Vivaldo</surname> 
+                                    <addName type="epithet">da <settlement>Genova</settlement></addName>
+                                </persName>, e che è placeName
+                                <lb xml:id="Art_2_linea_6" n="6" facs="#Art_2_L6"/>
+                                in bocca a 
+                                <persName xml:id="giustiniano" role="fictional">
+                                    <roleName full="init"><choice><abbr>m.</abbr><expan>magister</expan></choice></roleName> 
+                                    <forename>Nicolò</forename> 
+                                    <surname>Giustiniano</surname> pur 
+                                    <addName type="epithet">da <settlement>Genova</settlement></addName>
+                                </persName>.... 
+                            </bibl>
+                            <said who="#giustiniano" aloud="true" direct="true">« È con-
+                                <lb xml:id="Art_2_linea_7" n="7" facs="#Art_2_L7"/>
+                                suetudine nella 
+                                <settlement xml:id="Genova" type="town">patria mia</settlement> che un <rs type="person">giovine</rs> 
+                                innamorato, tro-
+                                <lb xml:id="Art_2_linea_8" n="8" facs="#Art_2_L8"/>
+                                vandosi in mano un mazzo di fiori, ora di gelsomini, ora
+                                <lb xml:id="Art_2_linea_9" n="9" facs="#Art_2_L9"/>
+                                di cedri, di aranci e di simili fiori, di garofani o d'altri che
+                                <lb xml:id="Art_2_linea_10" n="10" facs="#Art_2_L10"/>
+                                porta allora la stagione, incontrando per la strada o in
+                                <lb xml:id="Art_2_linea_11" n="11" facs="#Art_2_L11"/> <cb />
+                                porta <rs type="person">la sua innamorata</rs>, a quella senza rispetto veruno lo
+                                <lb xml:id="Art_2_linea_12" n="12" facs="#Art_2_L12"/>
+                                donerà, ed ella medesimamente quei fiori che in seno o in
+                                <lb xml:id="Art_2_linea_13" n="13" facs="#Art_2_L13"/>
+                                mano si troverà avere, 
+                                <rs type="person">al suo 
+                                    <term corresp="#intendiò" xml:lang="genovese" rendition="#italic" type="variabileDiParola">intendiò</term>
+                                </rs> darà. Nè vi maravi-
+                                <lb xml:id="Art_2_linea_14" n="14" facs="#Art_2_L14"/>
+                                gliate di 
+                                <rs corresp="#intendiò">questo vocabolo genovese</rs>, perciocché, secondo che
+                                <lb xml:id="Art_2_linea_15" n="15" facs="#Art_2_L15"/>
+                                <rs xml:id="interlocutori" type="person">voi</rs> dite: 
+                                <said who="#interlocutori" direct="false" rendition="#italic">la 
+                                    <rs type="person">tal donna</rs> ha per amante 
+                                    <rs type="person">il tale</rs>
+                                </said>, le <rs xml:id="donneGenovesi" type="person">donne nostre</rs>
+                                <lb xml:id="Art_2_linea_16" n="16" facs="#Art_2_L16"/>
+                                che schiettamente parlano la lingua genovese, senza mi-
+                                <lb xml:id="Art_2_linea_17" n="17" facs="#Art_2_L17"/>
+                                schiarci vocaboli strani, 
+                                sogliono dire 
+                                <said who="#donneGenovesi" direct="false">il tale è il mio 
+                                    <term corresp="#intendiò" xml:lang="genovese" rendition="#italic">intendiò</term>
+                                </said>:
+                                <lb xml:id="Art_2_linea_18" n="18" facs="#Art_2_L18"/>
+                                che anche usò 
+                                <cit>
+                                    <bibl xml:id="passoDecamerone">
+                                        <author>
+                                            <persName xml:id="boccaccio">
+                                                <roleName full="init"><choice><abbr>m.</abbr><expan>magister</expan></choice></roleName> 
+                                                <forename>Juvan</forename> 
+                                                <surname>Boccaccio</surname>
+                                            </persName>
+                                        </author> nella 
+                                        <biblScope unit="part">novella di 
+                                            <persName>
+                                                <roleName>Fra</roleName> 
+                                                <forename>Ri-<lb xml:id="Art_2_linea_19" n="19" facs="#Art_2_L19"/>naldo</forename>
+                                            </persName> e di 
+                                            <persName xml:id="lisetta">
+                                                <addName>madonna</addName> 
+                                                <forename>Lisetta</forename> 
+                                                <addName type="epithet">da 
+                                                    <settlement>Ca Quirino</settlement>
+                                                </addName>
+                                            </persName>
+                                        </biblScope>
+                                    </bibl>
+                                </cit>, benché alquanto
+                                <lb xml:id="Art_2_linea_20" n="20" facs="#Art_2_L20"/>
+                                il mutasse, quando la <rs type="person" corresp="#lisetta">buona donna</rs>, che poco sale aveva in
+                                <lb xml:id="Art_2_linea_21" n="21" facs="#Art_2_L21"/>
+                                zucca, alla <rs type="person">comare</rs> disse: 
+                                <said who="#lisetta" aloud="true" direct="true" rendition="#italic">
+                                    <rs type="person">Comare</rs>, egli non si vuol dire, ma 
+                                    <lb xml:id="Art_2_linea_22" n="22" facs="#Art_2_L22"/>
+                                    l'<term xml:id="intendimento">intendimento</term> mio è l'
+                                    <persName>
+                                        <addName>Agnolo</addName> 
+                                        <forename>Gabriello</forename>
+                                    </persName>. »
+                                </said>
+                            </said>
+                        </cit>
+                        <term corresp="#intendiò" xml:lang="genovese" rendition="#italic">intendiò</term>,
+                        dunque, e 
+                        <lb xml:id="Art_2_linea_23" n="23" facs="#Art_2_L23"/>non 
+                        <term xml:id="intendio" rendition="#italic">intendio</term> è 
+                        <rs corresp="#intendiò">il vero vocabolo genovese</rs>, assai affine alla 
+                        <lb xml:id="Art_2_linea_24" n="24" facs="#Art_2_L24"/>forma 
+                        <term xml:id="intendiu" rendition="#italic">intendiu</term> che il 
+                        <persName xml:id="bianchi">
+                            <roleName>signor</roleName> 
+                            <surname>Bianchi</surname>
+                        </persName> osserva dovrebbe esser 
+                        <lb xml:id="Art_2_linea_25" n="25" facs="#Art_2_L25"/>
+                        più conforme al <rs xml:id="genovese">parlar ligure</rs>. Che poi 
+                        <term corresp="#intendiò" xml:lang="genovese" rendition="#italic">intendiò</term> valga quel 
+                        <lb xml:id="Art_2_linea_26" n="26" facs="#Art_2_L26"/>
+                        che presso il 
+                        <surname corresp="#boccaccio">Boccaccio</surname> ed <rs type="people">altri antichi</rs> valse 
+                        <term corresp="#intendimento" rendition="#italic">intendimento</term>, 
+                        <lb xml:id="Art_2_linea_27" n="27" facs="#Art_2_L267"/>
+                        <term xml:id="intendanza" rendition="#italic">intendanza</term> e simili dal <lang xml:lang="provenzale">provenzale</lang> 
+                        <term xml:id="entendemen" xml:lang="provenzale" rendition="#italic">entendemen</term>, 
+                        <term xml:id="entendenza" xml:lang="provenzale" rendition="#italic">entendenza</term>, ecc.,
+                        <lb xml:id="Art_2_linea_28" n="28" facs="#Art_2_L28"/>
+                        si vede anche, non che dal <rs type="cit" corresp="#novelle26_2">passo sopracitato</rs>, da altro pure
+                        <lb xml:id="Art_2_linea_29" n="29" facs="#Art_2_L29"/>
+                        dello stesso 
+                        <cit>
+                            <bibl>
+                                <author>
+                                    <persName corresp="#matteoBandello">
+                                        <surname>Bandello</surname>
+                                    </persName>
+                                </author>, nella 
+                                <biblScope unit="part">Novella XXXXIV</biblScope> della 
+                                <biblScope unit="part">prima parte</biblScope>
+                            </bibl>
+                            <said>
+                                <lb xml:id="Art_2_linea_30" n="30" facs="#Art_2_L30"/>
+                                ove dice: « <rs type="person">Ella</rs>, a cui piaceva assai d'esser vagheggiata,
+                                <lb xml:id="Art_2_linea_31" n="31" facs="#Art_2_L31"/>
+                                non sapendo stare, come si dice a 
+                                <settlement corresp="#Genova" type="town">Genova</settlement>, senza galante o
+                                <lb xml:id="Art_2_linea_32" n="32" facs="#Art_2_L32"/>
+                                <term corresp="#intendimento" rendition="#italic">intendimento</term>, stranamente con 
+                                <rs type="person">lui</rs> si domesticava. » 
+                            </said>
+                        </cit>
+                        Noterò 
+                        <lb xml:id="Art_2_linea_33" n="33" facs="#Art_2_L33"/>
+                        per ultimo come il 
+                        <bibl>
+                            <author>
+                                <persName xml:id="belgrano">
+                                    <roleName>signor</roleName> 
+                                    <forename full="init"><choice><abbr>L.</abbr><expan>Luigi</expan></choice></forename> 
+                                    <forename full="init"><choice><abbr>T.</abbr><expan>Tommaso</expan></choice></forename>  
+                                    <surname>Belgrano</surname>
+                                </persName>
+                            </author> nel suo bel libro
+                            <lb xml:id="Art_2_linea_34" n="34" facs="#Art_2_L34"/>
+                            <title rendition="#italic">Della vita privata dei Genovesi</title> 
+                            (<pubPlace corresp="#Genova">Genova</pubPlace>, <date when="1875">1875</date>) a 
+                            <biblScope unit="page">pag. 455</biblScope>
+                        </bibl>
+                        <lb xml:id="Art_2_linea_35" n="35" facs="#Art_2_L35"/>
+                        conferma <rs type="gloss" corresp="#significatoIntendiò">questo significato</rs> 
+                        della voce <term corresp="#intendiò" xml:lang="genovese" rendition="#italic">intendiò</term>, ch'
+                        <rs type="person" corresp="#belgrano">egli</rs> però
+                        <lb xml:id="Art_2_linea_36" n="36" facs="#Art_2_L36"/>
+                        scrive non rettamente <term corresp="#intendio" rendition="#italic">intendio</term>, 
+                        come il 
+                        <persName xml:id="ademollo">
+                            <roleName>signor</roleName> 
+                            <surname>Ademollo</surname>
+                        </persName>,
+                        <lb xml:id="Art_2_linea_37" n="37" facs="#Art_2_L37"/>
+                        recando e il passo del <rs type="person" corresp="#jeandAuton">cronista francese</rs> su 
+                        <persName xml:id="tommasinaSpinola">
+                            <forename>Tommasina</forename>
+                            <lb xml:id="Art_2_linea_38" n="38" facs="#Art_2_L38"/>
+                            <surname>Spinola</surname>
+                        </persName>, e il 
+                        <rs type="cit" corresp="#novelle26_2">primo dei due citati</rs> di 
+                        <persName corresp="#matteoBandello">
+                            <forename>Matteo</forename> 
+                            <surname>Bandello</surname>
+                        </persName>.
+                    </p>
+                </body>
+                <back>
+                    <signed facs="#Art_2_signed"><persName corresp="#AdAncona"><forename full="init"><choice><abbr>A.</abbr><expan>ALESSANDRO</expan></choice></forename> <surname>D'ANCONA.</surname></persName></signed>
+                </back>
+            </text>
+            <text> <!-- biblio 1. Vol1-1878-1-S1-F8 -->
+                <front facs="#Bibl_1_front">
+                    <titlePart>
+                        <bibl xml:id="raffrontoPS">
+                            <author facs="#Bibl_1_author">
+                                <persName xml:id="riccardoFolli">
+                                    <forename>RICCARDO</forename> 
+                                    <surname>FOLLI</surname>
+                                </persName>
+                            </author>. 
+                            <bibl>
+                                <title rendition="#italic">I Promessi Sposi</title> di 
+                                <author >
+                                    <persName xml:id="alessandroManzoni" rendition="#italic">
+                                        <forename>Alessandro</forename> 
+                                        <surname>Manzoni</surname>
+                                    </persName>
+                                </author>,
+                                nelle due edizioni del 
+                                <date xml:id="pub_2" when="1840">1840</date> e del 
+                                <date xml:id="pub_1" when="1825">1825</date> raffrontate fra loro.
+                            </bibl>— 
+                            <pubPlace><settlement>Milano</settlement></pubPlace>, 
+                            <date when="1877">1877</date>.
+                        </bibl>
+                    </titlePart>
+                </front>
+                <body>
+                    <p xml:id="biblio1_1">
+                        <lb xml:id="Bibl_1_linea_1" n="1" facs="#Bibl_1_L1"/>
+                        <objectName xml:id="ipromessiSposi">
+                            Il capolavoro di 
+                            <persName corresp="#alessandroManzoni">
+                                <forename>Alessandro</forename>
+                                <surname> Manzoni</surname>
+                            </persName>
+                        </objectName>,
+                        che è al tempo
+                        <lb xml:id="Bibl_1_linea_2" n="2" facs="#Bibl_1_L2"/>
+                        stesso <rs corresp="#ipromessiSposi">uno dei capolavori della nostra letteratura</rs>, ha avuto
+                        <lb xml:id="Bibl_1_linea_3" n="3" facs="#Bibl_1_L3"/>
+                        non sappiamo se debba dirsi o la fortuna o la disgrazia di
+                        <lb xml:id="Bibl_1_linea_4" n="4" facs="#Bibl_1_L4"/>
+                        un'ammirazione, la quale non sempre si contiene dentro a
+                        <lb xml:id="Bibl_1_linea_5" n="5" facs="#Bibl_1_L5"/>
+                        que' limiti del ragionevole che 
+                         <persName>
+                            <roleName>san</roleName>
+                            <forename> Paolo</forename>
+                        </persName> 
+                        voleva posti an-
+                        <lb xml:id="Bibl_1_linea_6" n="6" facs="#Bibl_1_L6"/>
+                        che all'ossequio verso <rs type="divinity">Dio</rs>. 
+                        Ci sono infatti tra' suoi ammi-
+                        <lb xml:id="Bibl_1_linea_7" n="7" facs="#Bibl_1_L7"/>
+                        ratori di quelli, pei quali il <rs corresp="#ipromessiSposi">romanzo milanese</rs> è non solo cosa
+                        <lb xml:id="Bibl_1_linea_8" n="8" facs="#Bibl_1_L8"/>
+                        nel suo genere bella, e in questo concordiamo anche noi, ma è
+                        <lb xml:id="Bibl_1_linea_9" n="9" facs="#Bibl_1_L9"/>
+                        anche la sola veramente bella e grande e perfetta che abbia
+                        <lb xml:id="Bibl_1_linea_10" n="10" facs="#Bibl_1_L10"/>
+                        la <term>letteratura italiana</term> da quattro o cinque secoli in qua.
+                        <lb xml:id="Bibl_1_linea_11" n="11" facs="#Bibl_1_L11"/>
+                        Tali giudizi, dati e ripetuti con la più grande sicurezza, e
+                        <lb xml:id="Bibl_1_linea_12" n="12" facs="#Bibl_1_L12"/>
+                        avvalorati dall'autorità, quantunque non sempre nè uni-
+                        <lb xml:id="Bibl_1_linea_13" n="13" facs="#Bibl_1_L13"/>
+                        versalmente riconosciuta, di certi giudicanti, hanno portato
+                        <lb xml:id="Bibl_1_linea_14" n="14" facs="#Bibl_1_L14"/>
+                        quei frutti che si potevano aspettare, e dei quali ora si
+                        <lb xml:id="Bibl_1_linea_15" n="15" facs="#Bibl_1_L15"/>
+                        dolgono quelli stessi, che più d'ogni altro hanno contri-
+                        <lb xml:id="Bibl_1_linea_16" n="16" facs="#Bibl_1_L16"/>
+                        buito a produrli. Come si scriva oggi dai più (dopo che si
+                        <lb xml:id="Bibl_1_linea_17" n="17" facs="#Bibl_1_L17"/>
+                        è sfatato ogni studio degli antichi), non diciamo quanto a
+                        <lb xml:id="Bibl_1_linea_18" n="18" facs="#Bibl_1_L18"/>
+                        lingua, ma quanto a stile, che importa lunga e seria educa-
+                        <lb xml:id="Bibl_1_linea_19" n="19" facs="#Bibl_1_L19"/>
+                        zione di mente, di animo e di gusto, basta dare uno
+                        <lb xml:id="Bibl_1_linea_20" n="20" facs="#Bibl_1_L20"/>
+                        sguardo a quello che si stampa alla giornata, da coloro spe-
+                        <lb xml:id="Bibl_1_linea_21" n="21" facs="#Bibl_1_L21"/>
+                        cialmente che più gridano: 
+                        <emph rendition="#italic">
+                            <surname corresp="#alessandroManzoni">Manzoni</surname>, 
+                            <surname corresp="#alessandroManzoni">Manzoni</surname>!
+                        </emph>
+                    </p>
+                    <p xml:id="biblio1_2">
+                        <lb xml:id="Bibl_1_linea_22" n="22" facs="#Bibl_1_L22"/>
+                        Il 
+                        <persName corresp="#riccardoFolli">
+                            <roleName>signor</roleName> 
+                            <surname>Folli</surname>
+                        </persName>, compiendo un disegno già tentato da
+                        <lb xml:id="Bibl_1_linea_23" n="23" facs="#Bibl_1_L23"/>
+                        altri, ha con infinita pazienza messo a raffronto le due det-
+                        <lb xml:id="Bibl_1_linea_24" n="24" facs="#Bibl_1_L24"/>
+                        tature dei <rs corresp="#ipromessiSposi">Promessi Sposi</rs>, cioè la prima del <date when="1825">1825</date>, e la se-
+                        <lb xml:id="Bibl_1_linea_25" n="25" facs="#Bibl_1_L25"/>
+                        conda del <date when="1840">1840</date>, nella quale il 
+                        <surname corresp="#alessandroManzoni">Manzoni</surname>, oltre a non pochi
+                        <lb xml:id="Bibl_1_linea_26" n="26" facs="#Bibl_1_L26"/>
+                        ritocchi quanto alla sostanza, fece moltissime correzioni
+                        <lb xml:id="Bibl_1_linea_27" n="27" facs="#Bibl_1_L27"/>
+                        di lingua, secondo il consiglio e i suggerimenti di al-
+                        <lb xml:id="Bibl_1_linea_28" n="28" facs="#Bibl_1_L28"/>
+                        cuni amici suoi di <region xml:id="toscana">Toscana</region>. Egli maturava fin d'allora il <cb />
+                        <lb xml:id="Bibl_1_linea_29" n="29" facs="#Bibl_1_L29"/>
+                        grande e civile concetto intorno alla <term>unificazione della lin-
+                        <lb xml:id="Bibl_1_linea_30" n="30" facs="#Bibl_1_L30"/>
+                        gua in <country key="IT">Italia</country></term>, e, ponendo il centro di essa qui in <settlement>Firenze</settlement>,
+                        <lb xml:id="Bibl_1_linea_31" n="31" facs="#Bibl_1_L31"/>
+                        volle, com'uomo che non si contentava di teorizzare, av-
+                        <lb xml:id="Bibl_1_linea_32" n="32" facs="#Bibl_1_L32"/>
+                        valorar col fatto la propria dottrina, e perciò si mise a
+                        <lb xml:id="Bibl_1_linea_33" n="33" facs="#Bibl_1_L33"/>
+                        ridettare il <rs corresp="#ipromessiSposi">Romanzo</rs>, che già correva da un capo all'al-
+                        <lb xml:id="Bibl_1_linea_34" n="34" facs="#Bibl_1_L34"/>
+                        tro della <country key="IT">Penisola</country>, toscanizzandolo come meglio seppe e
+                        <lb xml:id="Bibl_1_linea_35" n="35" facs="#Bibl_1_L35"/>
+                        potè. Nè il sapere e il potere a <rs corresp="#alessandroManzoni">lui</rs> facevano difetto, per-
+                        <lb xml:id="Bibl_1_linea_36" n="36" facs="#Bibl_1_L36"/>
+                        chè egli non toscano, ebbe un gran sentimento della tosca-
+                        <lb xml:id="Bibl_1_linea_37" n="37" facs="#Bibl_1_L37"/>
+                        nità, maggiore, stiamo per dire, di quello di molti toscani,
+                        <lb xml:id="Bibl_1_linea_38" n="38" facs="#Bibl_1_L38"/>
+                        senza dubbio assai maggiore e più diritto di quello di mol-
+                        <lb xml:id="Bibl_1_linea_39" n="39" facs="#Bibl_1_L39"/>
+                        tissimi toscaneggianti.
+                    </p>
+                    <p xml:id="biblio1_3">
+                        <lb xml:id="Bibl_1_linea_40" n="40" facs="#Bibl_1_L40"/>
+                        E i mutamenti sono quasi sempre belli e felici : diciamo
+                        <lb xml:id="Bibl_1_linea_41" n="41" facs="#Bibl_1_L41"/>
+                        quasi sempre; perchè di alcuni si potrebbe dubitare, di altri
+                        <lb xml:id="Bibl_1_linea_42" n="42" facs="#Bibl_1_L42"/>
+                        non anderebbe lontano dal vero chi portasse contrario giu-
+                        <lb xml:id="Bibl_1_linea_43" n="43" facs="#Bibl_1_L43"/>
+                        dizio. Si potrebbe, ad esempio, dubitare se sia un buon
+                        <lb xml:id="Bibl_1_linea_44" n="44" facs="#Bibl_1_L44"/>
+                        servizio reso alle ragioni ortografiche della nostra lingua
+                        <lb xml:id="Bibl_1_linea_45" n="45" facs="#Bibl_1_L45"/>
+                        l'aver sempre scempiato il <term>dittongo</term> <term rendition="#italic" type="dittongo">uo</term>, scrivendo <q rendition="#italic">novo</q>,
+                        <lb xml:id="Bibl_1_linea_46" n="46" facs="#Bibl_1_L46"/>
+                        <q rendition="#italic">movo</q>, <q rendition="#italic">tono</q>, <q rendition="#italic">sono</q> e mille altri, 
+                        invece di <q rendition="#italic">nuovo</q>, <q rendition="#italic">muovo</q>, <q rendition="#italic">tuono</q>,
+                        <lb xml:id="Bibl_1_linea_47" n="47" facs="#Bibl_1_L47"/>
+                        <q rendition="#italic">suono</q>; o non piuttosto sia una specie di nuova pedanteria
+                        <lb xml:id="Bibl_1_linea_48" n="48" facs="#Bibl_1_L48"/>
+                        e di religiosa osservanza al parlare, non in tutto osserva-
+                        <lb xml:id="Bibl_1_linea_49" n="49" facs="#Bibl_1_L49"/>
+                        bile, di una parte dei fiorentini. Si potrebbe dubitare anche,
+                        <lb xml:id="Bibl_1_linea_50" n="50" facs="#Bibl_1_L50"/>
+                        se tutte le volte che nella prima edizione leggevasi con
+                        <lb xml:id="Bibl_1_linea_51" n="51" facs="#Bibl_1_L51"/>
+                        modo più regolare <q rendition="#italic" corresp="#1pub">che cosa</q>, sia stato un vero migliora-
+                        <lb xml:id="Bibl_1_linea_52" n="52" facs="#Bibl_1_L52"/>
+                        mento l'averlo sempre e poi sempre mutato in <q rendition="#italic" corresp="#pub_2">cosa</q> : se alla
+                        <lb xml:id="Bibl_1_linea_53" n="53" facs="#Bibl_1_L53"/>
+                        maniera più compiuta, più garbata, e, quel che val meglio,
+                        <lb xml:id="Bibl_1_linea_54" n="54" facs="#Bibl_1_L54"/>
+                        unicamente usata parlando, di indicare le date, come, per
+                        <lb xml:id="Bibl_1_linea_55" n="55" facs="#Bibl_1_L55"/>
+                        esempio, <q rendition="#italic" corresp="#1pub"><date>il giorno 7 di novembre</date></q>, 
+                        <q rendition="#italic" corresp="#pub_1"><date>il 12 d'aprile</date></q> e simili, della
+                        <lb xml:id="Bibl_1_linea_56" n="56" facs="#Bibl_1_L56"/>
+                        <rs corresp="#1pub">prima edizione</rs>, sia stato un guadagno per la lingua del
+                        <lb xml:id="Bibl_1_linea_57" n="57" facs="#Bibl_1_L57"/>
+                        <rs corresp="#ipromessiSposi">romanzo</rs> l'avervi sempre sostituito la maniera, propria sol-
+                        <lb xml:id="Bibl_1_linea_58" n="58" facs="#Bibl_1_L58"/>
+                        tanto di certe scritture, il <q rendition="#italic" corresp="#pub_2"><date>7 novembre</date></q>, 
+                        <q rendition="#italic" corresp="#2pub"><date>il 12 aprile</date></q>, ec. : se sia
+                        <lb xml:id="Bibl_1_linea_59" n="59" facs="#Bibl_1_L59"/>
+                        propriamente buono e approvabile, non diciamo l'uso di-
+                        <lb xml:id="Bibl_1_linea_60" n="60" facs="#Bibl_1_L60"/>
+                        screto e fatto a tempo e a luogo, ma lo scialacquo del <q rendition="#italic">lui</q>,
+                        <lb xml:id="Bibl_1_linea_61" n="61" facs="#Bibl_1_L61"/>
+                        del <q rendition="#italic">lei</q> e del <q rendition="#italic">loro</q> in caso retto: se l'<term>elisione della vocale</term>,
+                        <lb xml:id="Bibl_1_linea_62" n="62" facs="#Bibl_1_L62"/>
+                        in fine all'<term>articolo di numero plurale</term> dinanzi a <term>parola in-
+                        <lb xml:id="Bibl_1_linea_63" n="63" facs="#Bibl_1_L63"/>
+                        cominciante per vocale diversa</term>, fatta religiosamente nella
+                        <lb xml:id="Bibl_1_linea_64" n="64" facs="#Bibl_1_L64"/>
+                        <rs corresp="#pub_2">seconda edizione</rs>, sia cosa da raccomandarsi ai giovani : se
+                        <lb xml:id="Bibl_1_linea_65" n="65" facs="#Bibl_1_L65"/>
+                        meriti tutta l'approvazione di chi ha orecchio finissimo il
+                        <lb xml:id="Bibl_1_linea_66" n="66" facs="#Bibl_1_L66"/>
+                        <term>troncamento</term> in fine di alcune voci del verbo, spinto a tal
+                        <lb xml:id="Bibl_1_linea_67" n="67" facs="#Bibl_1_L67"/>
+                        segno da troncare perfino in <q rendition="#italic" corresp="#pub_2">compor</q> la voce <q rendition="#italic" corresp="#pub_1">comporre</q>, e si-
+                        <lb xml:id="Bibl_1_linea_68" n="68" facs="#Bibl_1_L68"/>
+                        mili altri mutamenti che rovesciano ogni regola di <term>gram-
+                        <lb xml:id="Bibl_1_linea_69" n="69" facs="#Bibl_1_L69"/>
+                        matica</term> e di <term>ortografia</term> : se infine, per non andare più
+                        <lb xml:id="Bibl_1_linea_70" n="70" facs="#Bibl_1_L70"/>
+                        innanzi con questi dubbi, la <term>punteggiatura</term> tritissima e im-
+                        <lb xml:id="Bibl_1_linea_71" n="71" facs="#Bibl_1_L71"/>
+                        pacciante della <rs corresp="#pub_2">seconda edizione</rs> sia preferibile alla più so-
+                        <lb xml:id="Bibl_1_linea_72" n="72" facs="#Bibl_1_L72"/>
+                        bria e più raccolta della <rs corresp="#pub_1">prima</rs>.
+                    </p>
+                    <p xml:id="biblio1_4">
+                        <lb xml:id="Bibl_1_linea_73" n="73" facs="#Bibl_1_L73"/>
+                        Quanto poi a certe mutazioni di voci e di maniere che
+                        <lb xml:id="Bibl_1_linea_74" n="74" facs="#Bibl_1_L74"/>
+                        non sono (e saremmo pronti a dimostrarlo) miglioramenti
+                        <lb xml:id="Bibl_1_linea_75" n="75" facs="#Bibl_1_L75"/>
+                        ma peggioramenti, la cosa vorrebbe esame e discorso molto
+                        <lb xml:id="Bibl_1_linea_76" n="76" facs="#Bibl_1_L76"/>
+                        più lungo che non sia concesso a noi di fare in queste co-
+                        <lb xml:id="Bibl_1_linea_77" n="77" facs="#Bibl_1_L77"/>
+                        lonne. Ne accenneremo soltanto alcune, che ci è venuto fatto
+                        <lb xml:id="Bibl_1_linea_78" n="78" facs="#Bibl_1_L78"/>
+                        di notare nelle prime pagine. Dove nella <rs corresp="#pub_1">prima edizione</rs>
+                        <lb xml:id="Bibl_1_linea_79" n="79" facs="#Bibl_1_L79"/>
+                        dice (<bibl corresp="#1pub" xml:id="pag8PrimaPubb"><biblScope unit="page">pag. 8</biblScope></bibl>): 
+                        <quote corresp="#1pub" rendition="#italic">Per un buon tratto la riviera sale</quote>, nella <rs corresp="#pub_2">se-
+                        <lb xml:id="Bibl_1_linea_80" n="80" facs="#Bibl_1_L80"/>
+                        conda</rs> a <q rendition="#italic" xml:id="tratto" corresp="#pub_1">buon tratto</q> si è sostituito <q rendition="#italic" xml:id="pezzo" corresp="#pub_2">buon pezzo</q> con iscapito
+                        <lb xml:id="Bibl_1_linea_81" n="81" facs="#Bibl_1_L81"/>
+                        della proprietà ; perchè delle due maniere, toscane toscanis-
+                        <lb xml:id="Bibl_1_linea_82" n="82" facs="#Bibl_1_L82"/>
+                        sime tutt'e due, la <rs corresp="#tratto">prima</rs> si usa a significare lunghezza di
+                        <lb xml:id="Bibl_1_linea_83" n="83" facs="#Bibl_1_L83"/>
+                        spazio, la <rs corresp="#pezzo">seconda</rs> lunghezza di tempo. Poco appresso,
+                        <lb xml:id="Bibl_1_linea_84" n="84" facs="#Bibl_1_L84"/>
+                        dove il <surname corresp="#alessandroManzoni">Manzoni</surname> scrisse dapprima : 
+                        <quote corresp="#1pub" rendition="#italic">Il lembo estremo, inter-
+                        <lb xml:id="Bibl_1_linea_85" n="85" facs="#Bibl_1_L85"/>
+                        ciso dalle foci dei torrenti</quote>, scrisse di poi : <quote corresp="#pub_2" rendition="#italic">Il lembo estremo
+                        <lb xml:id="Bibl_1_linea_86" n="86" facs="#Bibl_1_L86"/>
+                        tagliato dalle</quote> ec. Senza dubbio <q rendition="#italic" corresp="#pub_1">interciso</q> è parola dotta, ma
+                        <lb xml:id="Bibl_1_linea_87" n="87" facs="#Bibl_1_L87"/>
+                        che renditione intera l'idea dello scrittore ; <q rendition="#italic" corresp="2pub_2">tagliato</q> non lo
+                        <lb xml:id="Bibl_1_linea_88" n="88" facs="#Bibl_1_L88"/>
+                        renditione che per metà. Nella <rs corresp="#pag8PrimaPubb">stessa pagina</rs>, dove prima legge-
+                        <lb xml:id="Bibl_1_linea_89" n="89" facs="#Bibl_1_L89"/>
+                        vasi con molta proprietà : E da <q rendition="#italic" corresp="#1pub">quivi</q> (cioè dagli aperti
+                        <lb xml:id="Bibl_1_linea_90" n="90" facs="#Bibl_1_L90"/>
+                        terrapieni) <quote corresp="#pub_1" rendition="#italic">la vista spazia</quote> ec., nella <rs corresp="#pub_2">seconda</rs>, con modo im-
+                        <lb xml:id="Bibl_1_linea_91" n="91" facs="#Bibl_1_L91"/>
+                        proprio leggesi: <q rendition="#italic" corresp="#pub_2">E da qui</q>. Meglio sarebbe stato l'aver fatto
+                        <lb xml:id="Bibl_1_linea_92" n="92" facs="#Bibl_1_L92"/>
+                        una <term>proposizione relativa</term>, e dire, <rs rendition="#italic" type="variabileDiParola">dai quali</rs>. 
+                        Alla <bibl corresp="#1pub" xml:id="pag9PrimaPubb"><biblScope unit="page">pag. 9</biblScope></bibl>,
+                        <lb xml:id="Bibl_1_linea_93" n="93" facs="#Bibl_1_L93"/>
+                        nelle parole : <quote corresp="#1pub" rendition="#italic">Tra' monti che l'accompagnano, digradando via
+                        <lb xml:id="Bibl_1_linea_94" n="94" facs="#Bibl_1_L94"/>
+                        via e perdendosi quasi anch'essi nell'orizzonte</quote>, fu a <q rendition="#italic" corresp="#pub_1">digra-
+                        <lb xml:id="Bibl_1_linea_95" n="95" facs="#Bibl_1_L95"/>
+                        dando</q> sostituito <q rendition="#italic" corresp="#pub_2">degradando</q>, anche questo assai men bene ; <pb/>
+                        <lb xml:id="Bibl_1_linea_96" n="96" facs="#Bibl_1_L96"/>
+                        avendo oramai l'uso presente della lingua assegnato a 
+                        <q rendition="#italic" xml:id="digradare" corresp="#pub_1">Di-
+                        <lb xml:id="Bibl_1_linea_97" n="97" facs="#Bibl_1_L97"/>
+                        gradare</q> il senso di 
+                        <gloss corresp="#digradare">Scemare o Abbassarsi di grado in grado</gloss>,
+                        <lb xml:id="Bibl_1_linea_98" n="98" facs="#Bibl_1_L98"/>
+                        com'è di questi monti, e a 
+                        <q rendition="#italic" xml:id="degradare" corresp="#2pub">Degradare</q> il senso di 
+                        <gloss corresp="#degradare">Destituire
+                        <lb xml:id="Bibl_1_linea_99" n="99" facs="#Bibl_1_L99"/>
+                        dal grado od ufficio</gloss>. Nella <rs corresp="#pag9PrimaPubb">stessa pagina</rs>, dove la <rs corresp="#pub_1">prima
+                        <lb xml:id="Bibl_1_linea_100" n="100" facs="#Bibl_1_L100"/>
+                        edizione</rs> leggeva : <quote corresp="#1pub" rendition="#italic">messa poi questa</quote> (cioè la mano destra)
+                        <lb xml:id="Bibl_1_linea_101" n="101" facs="#Bibl_1_L101"/>
+                        <quote corresp="#pub_1" rendition="#italic">nell'altra dietro le reni</quote>, 
+                        la <rs corresp="#pub_2">seconda</rs> invece di <q rendition="#italic" corresp="#1pub">reni</q> ha posto
+                        <lb xml:id="Bibl_1_linea_102" n="102" facs="#Bibl_1_L102"/>
+                        <q rendition="#italic" corresp="#pub_2">schiena</q>, che secondo il solito uso comune, preso per unica
+                        <lb xml:id="Bibl_1_linea_103" n="103" facs="#Bibl_1_L103"/>
+                        regola della lingua, si dice più propriamente di certi ani-
+                        <lb xml:id="Bibl_1_linea_104" n="104" facs="#Bibl_1_L104"/>
+                        mali che dell'uomo; o se detto dell'uomo, essa rimane più
+                        <lb xml:id="Bibl_1_linea_105" n="105" facs="#Bibl_1_L105"/>
+                        in su della parte dove si tengono le mani, come allora le
+                        <lb xml:id="Bibl_1_linea_106" n="106" facs="#Bibl_1_L106"/>
+                        teneva 
+                        <persName type="fictional">
+                            <roleName>Don</roleName> 
+                            <forename>Abbondio</forename>
+                        </persName>. Poche pagine più avanti al <q rendition="#italic" corresp="#pub_1">domani</q>
+                        <lb xml:id="Bibl_1_linea_107" n="107" facs="#Bibl_1_L107"/>
+                        non si è dubitato di sostituire l'<q rendition="#italic" corresp="#pub_2">indomani</q>; alla maniera cor-
+                        <lb xml:id="Bibl_1_linea_108" n="108" facs="#Bibl_1_L108"/>
+                        rettissima <q rendition="#italic" corresp="#pub_1">gli uomini più quieti</q>, 
+                        la spropositata, <q rendition="#italic" corresp="#pub_2">gli uomini
+                        <lb xml:id="Bibl_1_linea_109" n="109" facs="#Bibl_1_L109"/>
+                        i più quieti</q>.
+                    </p>
+                    <p xml:id="biblio1_5">
+                        <lb xml:id="Bibl_1_linea_110" n="110" facs="#Bibl_1_L110"/>
+                        E basta fin qui. Avrebbe adunque il 
+                        <persName corresp="#riccardoFolli">
+                            <roleName>signor</roleName> 
+                            <surname>Folli</surname>
+                        </persName> fatto
+                        <lb xml:id="Bibl_1_linea_111" n="111" facs="#Bibl_1_L111"/>
+                        cosa vantaggiosissima alle scuole, per le quali ha sostenuto
+                        <lb xml:id="Bibl_1_linea_112" n="112" facs="#Bibl_1_L112"/>
+                        la fatica della <rs corresp="#raffrontoPS">presente edizione</rs>, se avesse via via notati
+                        <lb xml:id="Bibl_1_linea_113" n="113" facs="#Bibl_1_L113"/>
+                        tutti i peggioramenti della <rs corresp="#2pub">seconda dettatura</rs> ; non po-
+                        <lb xml:id="Bibl_1_linea_114" n="114" facs="#Bibl_1_L114"/>
+                        tendo, temiamo, molti dei maestri far da sè medesimi
+                        <lb xml:id="Bibl_1_linea_115" n="115" facs="#Bibl_1_L115"/>
+                        questo lavoro. Anzi è da credere che molti di essi, sopraf-
+                        <lb xml:id="Bibl_1_linea_116" n="116" facs="#Bibl_1_L116"/>
+                        fatti dall'autorità dei nomi e non sostenuti dalla debita
+                        <lb xml:id="Bibl_1_linea_117" n="117" facs="#Bibl_1_L117"/>
+                        esperienza, troveranno tutto migliore e tutto più bello nella
+                        <lb xml:id="Bibl_1_linea_118" n="118" facs="#Bibl_1_L118"/>
+                        <rs corresp="#2pub">seconda edizione</rs>. Noi per la parte nostra non abbiamo mai
+                        <lb xml:id="Bibl_1_linea_119" n="119" facs="#Bibl_1_L119"/>
+                        capito in che modo, cedendo all'abuso di una classe di cat-
+                        <lb xml:id="Bibl_1_linea_120" n="120" facs="#Bibl_1_L120"/>
+                        tivi parlanti e di peggiori scriventi, si sia voluto intro-
+                        <lb xml:id="Bibl_1_linea_121" n="121" facs="#Bibl_1_L121"/>
+                        durre nel testo di <rs corresp="#ipromessiSposi">uno de' più bei libri della nostra lette-
+                        <lb xml:id="Bibl_1_linea_122" n="122" facs="#Bibl_1_L122"/>
+                        ratura</rs>, certe sguaiataggini e certe improprietà, che non
+                        <lb xml:id="Bibl_1_linea_123" n="123" facs="#Bibl_1_L123"/>
+                        sono davvero nell'uso di chi parla schiettamente e della
+                        <lb xml:id="Bibl_1_linea_124" n="124" facs="#Bibl_1_L124"/>
+                        universalità dei toscani.
+                    </p>
+                    <p xml:id="biblio1_6">
+                        <lb xml:id="Bibl_1_linea_125" n="125" facs="#Bibl_1_L125"/>
+                        Ma con tutto questo, l'<rs corresp="#2pub">edizione seconda</rs> è così migliore,
+                        <lb xml:id="Bibl_1_linea_126" n="126" facs="#Bibl_1_L126"/>
+                        così più veramente italiana nella lingua e nel dettato, che
+                        <lb xml:id="Bibl_1_linea_127" n="127" facs="#Bibl_1_L127"/>
+                        la fatica dell'<rs type="person">ultimo editore</rs> merita tutta la lode, per aver
+                        <lb xml:id="Bibl_1_linea_128" n="128" facs="#Bibl_1_L128"/>
+                        dato modo ai giovani ed a chiunque altro si diletta di
+                        <lb xml:id="Bibl_1_linea_129" n="129" facs="#Bibl_1_L129"/>
+                        questi studi, di fare sul grande lavoro del <surname corresp="#alessandroManzoni">Manzoni</surname> quel-
+                        <lb xml:id="Bibl_1_linea_130" n="130" facs="#Bibl_1_L130"/>
+                        l'esame comparativo, che tanto giova ad apprenditionere la pro-
+                        <lb xml:id="Bibl_1_linea_131" n="131" facs="#Bibl_1_L131"/>
+                        prietà e la efficacia dello scrivere. Rimane ora che le scuole
+                        <lb xml:id="Bibl_1_linea_132" n="132" facs="#Bibl_1_L132"/>
+                        italiane facciano buon viso a questo libro, come ce l'ha
+                        <lb xml:id="Bibl_1_linea_133" n="133" facs="#Bibl_1_L133"/>
+                        dato il 
+                        <persName corresp="#riccardoFolli">
+                            <roleName>signor</roleName> 
+                            <surname>Folli</surname>
+                        </persName>, e ne ricavino tutto il profitto che si
+                        <lb xml:id="Bibl_1_linea_134" n="134" facs="#Bibl_1_L134"/>
+                        può. Nè solo nella lingua (a cui unicamente par che si vo-
+                        <lb xml:id="Bibl_1_linea_135" n="135" facs="#Bibl_1_L135"/>
+                        glia mirare dall'editore), ma anche, ed assai più, nella so-
+                        <lb xml:id="Bibl_1_linea_136" n="136" facs="#Bibl_1_L136"/>
+                        stanza di <rs corresp="#ipromessiSposi">questo libro</rs> e nelle sue incomparabili bellezze
+                        <lb xml:id="Bibl_1_linea_137" n="137" facs="#Bibl_1_L137"/>
+                        dovranno studiare i giovani nostri ; chè pochi altri libri
+                        <lb xml:id="Bibl_1_linea_138" n="138" facs="#Bibl_1_L138"/>
+                        possono, come <rs corresp="#ipromessiSposi">questo</rs>, renditioner migliori gli uomini, con la
+                        <lb xml:id="Bibl_1_linea_139" n="139" facs="#Bibl_1_L139"/>
+                        viva rappresentazione dei caratteri, con gl'intendimenti del-
+                        <lb xml:id="Bibl_1_linea_140" n="140" facs="#Bibl_1_L140"/>
+                        l'<rs corresp="#ipromessiSposi">opera</rs> e con quella attrattiva che la verità sola, sincera-
+                        <lb xml:id="Bibl_1_linea_141" n="141" facs="#Bibl_1_L141"/>
+                        mente sentita e sinceramente espressa, ha ed avrà sempre
+                        <lb xml:id="Bibl_1_linea_142" n="142" facs="#Bibl_1_L142"/>
+                        sopra gli artifizi e gl'infingimenti di una falsa rettorica.
+                    </p>
+                </body>
+            </text>
+            <text facs="#bibliografia_2"> <!-- biblio 2. Vol1-1878-1-S1-F8 -->
+                <front>
+                    <titlePart facs="#Bibl_2_titlePart">
+                        <bibl xml:id="poesiaPopolareItalianaStudi">
+                        <lb xml:id="Bibl_2_linea_1" n="1" facs="#Bibl_2_L1"/>
+                            <author>
+                                <persName corresp="#AdAncona">
+                                    <forename>ALESSANDRO</forename> 
+                                    <surname>D'ANCONA</surname>
+                                </persName>
+                            </author>. 
+                            <title> <hi rendition="#italic">La poesia popolare italiana.</hi> Studi.</title>
+                            <lb xml:id="Bibl_2_linea_2" n="2" facs="#Bibl_2_L2"/> — 
+                            <pubPlace><settlement>Livorno</settlement></pubPlace>, 
+                            <date when="1878">1878</date>.
+                        </bibl>
+                    </titlePart>
+                </front>
+                <body>
+                    <p xml:id="biblio2_1">
+                        <lb xml:id="Bibl_2_linea_3" n="3" facs="#Bibl_2_L3"/>
+                        Quanto modesto il titolo, tanto commendevole il <rs corresp="#poesiaPopolareItalianaStudi">libro</rs>
+                        <lb xml:id="Bibl_2_linea_4" n="4" facs="#Bibl_2_L4"/>
+                        per ricerche minute, vaste e accurate. Tutti coloro che si
+                        <lb xml:id="Bibl_2_linea_5" n="5" facs="#Bibl_2_L5"/>
+                        occupano in <country key="IT">Italia</country> della <term>storia della nostra letteratura</term> sa-
+                        <lb xml:id="Bibl_2_linea_6" n="6" facs="#Bibl_2_L6"/>
+                        pevano che il 
+                        <persName corresp="#AdAncona">
+                            <roleName full="abb"><choice><abbr>prof.</abbr><expan>professore</expan></choice></roleName> 
+                            <surname>D'Ancona</surname>
+                        </persName> attendeva da molti anni a
+                        <lb xml:id="Bibl_2_linea_7" n="7" facs="#Bibl_2_L7"/>
+                        <rs corresp="#poesiaPopolareItalianaStudi">quest'opera</rs>, e tutti ne aspettavano con impazienza la pub-
+                        <lb xml:id="Bibl_2_linea_8" n="8" facs="#Bibl_2_L8"/>
+                        blicazione. I loro voti sono finalmente appagati. Le conclu-
+                        <lb xml:id="Bibl_2_linea_9" n="9" facs="#Bibl_2_L9"/>
+                        sioni più importanti alle quali giunge l'<rs corresp="#AdAncona">autore</rs> sono due.
+                        <lb xml:id="Bibl_2_linea_10" n="10" facs="#Bibl_2_L10"/>
+                        La prima è che il <term>Canto popolare italiano</term> sia nativo di <region xml:id="sicilia">Si-
+                        <lb xml:id="Bibl_2_linea_11" n="11" facs="#Bibl_2_L11"/>
+                        cilia</region> ; che esso <quote corresp="#poesiaPopolareItalianaStudi">« abbia patria di origine l'<region corresp="#sicilia">Isola</region>, e per
+                        <lb xml:id="Bibl_2_linea_12" n="12" facs="#Bibl_2_L12"/>
+                        patria d'adozione la <region corresp="#toscana">Toscana</region>, che, nato con veste di dia-
+                        <lb xml:id="Bibl_2_linea_13" n="13" facs="#Bibl_2_L13"/>
+                        letto in 
+                        <region corresp="#sicilia">Sicilia</region>, in <region corresp="#toscana">Toscana</region> abbia assunto forma illustre e
+                        <lb xml:id="Bibl_2_linea_14" n="14" facs="#Bibl_2_L14"/>
+                        comune, e con siffatta veste novella sia migrato nelle altre 
+                        <lb xml:id="Bibl_2_linea_15" n="15" facs="#Bibl_2_L15"/>
+                        provincie. »</quote>
+                    </p>
+                    <p xml:id="biblio2_2">
+                        <lb xml:id="Bibl_2_linea_16" n="16" facs="#Bibl_2_L16"/>
+                        Il <persName corresp="#AdAncona"><surname>D'Ancona</surname></persName> appoggia questa sua conclusione sopra nu-
+                        <lb xml:id="Bibl_2_linea_17" n="17" facs="#Bibl_2_L17"/>
+                        merosi fatti, i quali, se non lasciano una persuasione piena
+                        <lb xml:id="Bibl_2_linea_18" n="18" facs="#Bibl_2_L18"/>
+                        ed assoluta nell'animo del lettore, lo fanno però inclinare
+                        <lb xml:id="Bibl_2_linea_19" n="19" facs="#Bibl_2_L19"/>
+                        già molto alla sua opinione. L'altra conclusione è che una 
+                        <cb />
+                        <lb xml:id="Bibl_2_linea_20" n="20" facs="#Bibl_2_L20"/>
+                        grandissima parte delle poesie cantate dal popolo italiano
+                        <lb xml:id="Bibl_2_linea_21" n="21" facs="#Bibl_2_L21"/>
+                        ha origine letteraria. Il <persName corresp="#AdAncona"><surname>D'Ancona</surname></persName> renditione conto di parec-
+                        <lb xml:id="Bibl_2_linea_22" n="22" facs="#Bibl_2_L22"/>
+                        chie raccolte dove si trova un ingente numero dei canti,
+                        <lb xml:id="Bibl_2_linea_23" n="23" facs="#Bibl_2_L23"/>
+                        sui quali evidentemente furono rifatti e rimaneggiati poi
+                        <lb xml:id="Bibl_2_linea_24" n="24" facs="#Bibl_2_L24"/>
+                        quelli che anche oggi si odono sulle labbra dei volghi. <quote corresp="#poesiaPopolareItalianaStudi">«Po-
+                        <lb xml:id="Bibl_2_linea_25" n="25" facs="#Bibl_2_L25"/>
+                        trebbe invero, dice l'autore, del fatto, a prima giunta, re-
+                        <lb xml:id="Bibl_2_linea_26" n="26" facs="#Bibl_2_L26"/>
+                        carsi una spiegazione diversa : che, cioè, i <term>canti in forma
+                        <lb xml:id="Bibl_2_linea_27" n="27" facs="#Bibl_2_L27"/>
+                        letteraria</term> non altro fossero se non componimenti origina-
+                        <lb xml:id="Bibl_2_linea_28" n="28" facs="#Bibl_2_L28"/>
+                        riamente plebei, ma qua e là raffazzonati, ritoccati,  ripic-
+                        <lb xml:id="Bibl_2_linea_29" n="29" facs="#Bibl_2_L29"/>
+                        chiati da mano culta. Però i molti raffronti da noi istituiti,
+                        <lb xml:id="Bibl_2_linea_30" n="30" facs="#Bibl_2_L30"/>
+                        componimento per componimento, debbono, a chi vi abbia
+                        <lb xml:id="Bibl_2_linea_31" n="31" facs="#Bibl_2_L31"/>
+                        posto attenzione, aver persuaso il contrario. Se si volesse
+                        <lb xml:id="Bibl_2_linea_32" n="32" facs="#Bibl_2_L32"/>
+                        dire soltanto che i canti in forma letteraria riproducono,
+                        <lb xml:id="Bibl_2_linea_33" n="33" facs="#Bibl_2_L33"/>
+                        ripetono, esemplano una maniera di poesia già esistente nei
+                        <lb xml:id="Bibl_2_linea_34" n="34" facs="#Bibl_2_L34"/>
+                        volghi ; che chi li compose seguì al possibile il modo di con-
+                        <lb xml:id="Bibl_2_linea_35" n="35" facs="#Bibl_2_L35"/>
+                        cepire e di sentire del popolo, pur nobilitandolo; che si giovò
+                        <lb xml:id="Bibl_2_linea_36" n="36" facs="#Bibl_2_L36"/>
+                        anche di vocaboli, di frasi, di versi interi già adoperati
+                        <lb xml:id="Bibl_2_linea_37" n="37" facs="#Bibl_2_L37"/>
+                        dal popolo per l'espressione amorosa, noi lo concordiamo :
+                        <lb xml:id="Bibl_2_linea_38" n="38" facs="#Bibl_2_L38"/>
+                        anzi è ben chiaro che queste essendo imitazioni, non sa-
+                        <lb xml:id="Bibl_2_linea_39" n="39" facs="#Bibl_2_L39"/>
+                        rebbersi fatte, se la cosa da imitare già non fosse stata.
+                        <lb xml:id="Bibl_2_linea_40" n="40" facs="#Bibl_2_L40"/>
+                        Ma la forma di quelle <term>ottave</term> è di mente e di mano tut-
+                        <lb xml:id="Bibl_2_linea_41" n="41" facs="#Bibl_2_L41"/>
+                        t'altro che popolare : il colorito generale, la concatena-
+                        <lb xml:id="Bibl_2_linea_42" n="42" facs="#Bibl_2_L42"/>
+                        zione delle parti, la fusione intera del componimento ma-
+                        <lb xml:id="Bibl_2_linea_43" n="43" facs="#Bibl_2_L43"/>
+                        nifesta chiaramente l'opera di chi sia più o meno esperto
+                        <lb xml:id="Bibl_2_linea_44" n="44" facs="#Bibl_2_L44"/>
+                        al lavoro dell'arte. Senza che, ponendo a raffronto le due
+                        <lb xml:id="Bibl_2_linea_45" n="45" facs="#Bibl_2_L45"/>
+                        lezioni, ordinariamente noi troviamo più perfetta nelle <term>rime</term>,
+                        <lb xml:id="Bibl_2_linea_46" n="46" facs="#Bibl_2_L46"/>
+                        nel numero e nella misura dei <term>versi</term>, la <term>letteraria</term> anziché
+                        <lb xml:id="Bibl_2_linea_47" n="47" facs="#Bibl_2_L47"/>
+                        la <term>popolare</term>, che anche per questo lato si dà a divedere di
+                        <lb xml:id="Bibl_2_linea_48" n="48" facs="#Bibl_2_L48"/>
+                        seconda elaborazione. E pur tuttavia, i canti ridotti alla
+                        <lb xml:id="Bibl_2_linea_49" n="49" facs="#Bibl_2_L49"/>
+                        <term>espressione vernacola</term> mantengono ancora in sè gran quan-
+                        <lb xml:id="Bibl_2_linea_50" n="50" facs="#Bibl_2_L50"/>
+                        tità di frasi e vocaboli appartenenti all'<term>idioma culto</term>, da
+                        <lb xml:id="Bibl_2_linea_51" n="51" facs="#Bibl_2_L51"/>
+                        non lasciar nessun dubbio sulla loro derivazione da un esem-
+                        <lb xml:id="Bibl_2_linea_52" n="52" facs="#Bibl_2_L52"/>
+                        plare in lingua comune e letteraria. »</quote>
+                    </p>
+                    <p xml:id="biblio2_3">
+                        <lb xml:id="Bibl_2_linea_53" n="53" facs="#Bibl_2_L53"/>
+                        Le conclusioni del <persName corresp="#AdAncona"><roleName><choice><abbr>prof.</abbr><expan>professore</expan></choice></roleName> <surname> D'Ancona</surname></persName> potrebbero essere,
+                        <lb xml:id="Bibl_2_linea_54" n="54" facs="#Bibl_2_L54"/>
+                        forse, da ulteriori scoperte invalidate. Ma ad ogni modo il
+                        <lb xml:id="Bibl_2_linea_55" n="55" facs="#Bibl_2_L55"/>
+                        suo libro rimarrà sempre di capitale importanza per la <term xml:id="storiaPPI">sto-
+                        <lb xml:id="Bibl_2_linea_56" n="56" facs="#Bibl_2_L56"/>
+                        ria della poesia popolare italiana</term>, rimarrà il primo e più
+                        <lb xml:id="Bibl_2_linea_57" n="57" facs="#Bibl_2_L57"/>
+                        notabile lavoro seriamente sintetico che sia stato fatto so-
+                        <lb xml:id="Bibl_2_linea_58" n="58" facs="#Bibl_2_L58"/>
+                        pra di <rs corresp="#storiaPPI">essa</rs>.
+                    </p>
+                </body>
+            </text>
+            <text> <!-- notizie --> 
+                <body>
+                    <p facs="Not_title">NOTIZIE.</p>
+                    <p xml:id="notizie1" facs="#Not_1_all" >
+                        <lb xml:id="Not_1_linea_1" n="1" facs="#Not_1_L1"/>
+                        — Una questione economica importante, la partecipazione al gua-
+                        <lb xml:id="Not_1_linea_2" n="2" facs="#Not_1_L2" />
+                        dagno, è trattata per la prima volta nelle sue particolarità da 
+                        <persName xml:id="bohmert">
+                            <forename full="init">A.</forename>
+                            <lb xml:id="Not_1_linea_3" n="3" facs="#Not_1_L3"/>
+                            <surname>Böhmert</surname>
+                        </persName> in un'opera di due volumi uscita poco tempo fa presso Bro-
+                        <lb xml:id="Not_1_linea_4" n="4" facs="#Not_1_L4"/>
+                        ckliaus a <settlement>Lipsia</settlement> (Biblioteca internazionale <bibl><biblScope unit="volume"><choice><abbr>vol.</abbr><expan>volumi</expan></choice> XXXII e XXXIII</biblScope>. <title rendition="#italic">Die
+                        <lb xml:id="Not_1_linea_5" n="5" facs="#Not_1_L5"/>
+                        Gewinnbetheiligung. Untersuchungen über Arbeitslohn und Unternehmer-
+                        <lb xml:id="Not_1_linea_6" n="6" facs="#Not_1_L6"/>
+                        gewinn</title></bibl>). L'<rs corresp="#bohmert">autore</rs> si è servito di 120 relazioni fornitegli dalle fabbri-
+                        <lb xml:id="Not_1_linea_7" n="7" facs="#Not_1_L7"/>
+                        che nelle quali i lavoratori oltre il salario ricevono una parte del gua-
+                        <lb xml:id="Not_1_linea_8" n="8" facs="#Not_1_L8"/>
+                        dagno. Il caso il più interessante è quello del Leclaire, che ha fatto
+                        <lb xml:id="Not_1_linea_9" n="9" facs="#Not_1_L9"/>
+                        dal 1871 fino al 1876 una fortuna di 1,200,000 lire, benché i lavoratori
+                        <lb xml:id="Not_1_linea_10" n="10" facs="#Not_1_L10"/>
+                        ricevessero da 12 a 16 per cento del guadagno annuo. Dopo la morte
+                        <lb xml:id="Not_1_linea_11" n="11" facs="#Not_1_L11"/>
+                        del padrone i lavoratori hanno acquistato il diritto di eleggere il loro
+                        <lb xml:id="Not_1_linea_12" n="12" facs="#Not_1_L12"/>
+                        capo, e due volte si sono serviti con molto senno di questo diritto.
+                        <lb xml:id="Not_1_linea_13" n="13" facs="#Not_1_L13"/>
+                        I resultati dei loro lavori sono così eccellenti che alcuni gruppi di quei
+                        <lb xml:id="Not_1_linea_14" n="14" facs="#Not_1_L14"/>
+                        lavoratori sono richiesti in altri paesi per l'ornamento di palazzi. Al-
+                        <lb xml:id="Not_1_linea_15" n="15" facs="#Not_1_L15"/>
+                        tri esperimenti sono meno felici, e in ogni caso, perchè la partecipa-
+                        <lb xml:id="Not_1_linea_16" n="16" facs="#Not_1_L16"/>
+                        zione al guadagno abbia luogo, si deve trattare di una intrapresa, la
+                        <lb xml:id="Not_1_linea_17" n="17" facs="#Not_1_L17"/>
+                        riuscita della quale dipenda piuttosto dalla qualità del lavoro che dalla
+                        <lb xml:id="Not_1_linea_18" n="18" facs="#Not_1_L18"/>
+                        quantità del capitale ed in cui la capacità dei lavoratori e quella del
+                        <lb xml:id="Not_1_linea_19" n="19" facs="#Not_1_L19"/>
+                        loro capo non sia troppo diversa. Poi l'intrapresa non deve essere troppo
+                        <lb xml:id="Not_1_linea_20" n="20" facs="#Not_1_L20"/>
+                        vasta e non si va avanti senza una certa fiducia tra lavoratori e pa-
+                        <lb xml:id="Not_1_linea_21" n="21" facs="#Not_1_L21"/>
+                        drone. L'organizzazione delle fabbriche di questo genere non è punto
+                        <lb xml:id="Not_1_linea_22" n="22" facs="#Not_1_L22"/>
+                        democratica. Nello stabilimento del Leclaire per esempio fra 1081 per-
+                        <lb xml:id="Not_1_linea_23" n="23" facs="#Not_1_L23"/>
+                        sone che vi erano occupate nel 1876, solamente 80 fecero parte della
+                        <lb xml:id="Not_1_linea_24" n="24" facs="#Not_1_L24"/>
+                        società cooperativa ; e nell'intrapresa del Crossley tra 5000 lavoratori
+                        <lb xml:id="Not_1_linea_25" n="25" facs="#Not_1_L25"/>
+                        solamente 150 divennero azionisti.
+                        <lb xml:id="Not_1_linea_26" n="26" facs="#Not_1_L26"/>
+                        (<title rendition="#italic">Literarisches Centralblat</title>. Resoconto di <persName><surname>Roscher</surname></persName> del libro di <persName><surname corresp="#bohmert">Böhmert</surname></persName>)
+                    </p>
+                    <p xml:id="notizie2" facs="#Not_2_all"> <!-- Vol2, 18 agosto 1878 fascicolo 7 (33)-->
+                        <lb xml:id="Not_2_linea_1" n="1" facs="#Not_2_L1"/>
+                        — Alla conferenza monetaria a cui il 
+                        <orgName>governo degli <country key="USA">Stati Uniti</country></orgName>, in 
+                        <lb xml:id="Not_2_linea_2" n="2" facs="#Not_2_L2"/>
+                        esecuzione di un atto del Congresso del <date when="28/02/1878">28 febbraio 1878</date>, invitava  
+                        <listPlace><head>i <lb xml:id="Not_2_linea_3" n="3" facs="#Not_2_L3"/> diversi Stati d'<bloc>Europa</bloc>, aderivano </head>
+                            <place><country>l'Austria-Ungheria, </country></place> 
+                            <place><country>il Belgio, </country></place> 
+                            <place><country>la Fran-<lb xml:id="Not_2_linea_4" n="4" facs="#Not_2_L4"/>cia, </country></place> 
+                            <place><country>l'Inghilterra, </country></place> 
+                            <place><country>la Grecia, </country></place> 
+                            <place><country>l'Italia, </country></place> 
+                            <place><country>Russia, </country></place> 
+                            <place><country>la Svezia </country></place> 
+                            <place><country>e la Norvegia, </country></place>
+                            <place><country><lb xml:id="Not_2_linea_5" n="5" facs="#Not_2_L5"/>l'Olanda </country></place> 
+                            <place><country>e la Svizzera.</country></place>
+                        </listPlace> Questa conferenza si è riunita il <date when="10/02/1878">10 <choice><abbr>corr.</abbr><expan>corrente</expan></choice></date> a 
+                        <lb xml:id="Not_2_linea_6" n="6" facs="#Not_2_L6"/>
+                        <settlement>Parigi</settlement>
+                        I rappresentanti dell'Italia sono
+                        <listPerson>
+                            <person> 
+                                <persName> il
+                                    <roleName>conte</roleName> 
+                                    <surname>Rusconi</surname>
+                                </persName> 
+                                <occupation>
+                                    referenditionario <lb xml:id="Not_2_linea_7" n="7" facs="#Not_2_L7"/>al <orgName>Consiglio di Stato</orgName>
+                                </occupation>
+                            </person> 
+                            <person> 
+                                <persName>, il
+                                    <roleName full="abb"><choice><abbr>comm.</abbr><expan cert="low">commendatore</expan></choice></roleName> 
+                                    <surname> Barralis</surname>
+                                </persName> 
+                                <occupation>direttore della <orgName>Zecca di Milano</orgName>
+                                </occupation>
+                            </person>
+                            
+                            <person> 
+                                <persName><lb xml:id="Not_2_linea_8" n="8" facs="#Not_2_L8"/>, ed il 
+                                    <roleName full="abb"><choice><abbr>cav.</abbr><expan>cavaliere</expan></choice></roleName> 
+                                    <surname>Ressmann</surname>
+                                </persName> 
+                                <occupation>
+                                    primo segretario d'<orgName>ambasciata a <placeName>Parigi</placeName></orgName>
+                                </occupation>
+                            </person>
+                        </listPerson> 
+                        . La presi-<lb xml:id="Not_2_linea_9" n="9" facs="#Not_2_L9"/>denza è stata conferita al  
+                        <listPerson>
+                            <person>
+                                <occupation>ministro delle finanze francese</occupation> 
+                                <persName>
+                                    <roleName>signor</roleName> 
+                                    <forename>Leone</forename>
+                                    <lb xml:id="Not_2_linea_10" n="10" facs="#Not_2_L10"/>
+                                    <surname>Say</surname>
+                                </persName>
+                            </person>
+                        </listPerson>. Nella prima seduta dopo che il 
+                        <listPerson>
+                            <person>
+                                <occupation>rappresentante americano</occupation> 
+                                <persName>
+                                    <roleName>signor</roleName>
+                                    <lb xml:id="Not_2_linea_11" n="11" facs="#Not_2_L11"/>
+                                    <surname>Fenton</surname>
+                                </persName>
+                            </person>
+                        </listPerson> ebbe esposto l'oggetto della riunione la conferenza decise di
+                        <lb xml:id="Not_2_linea_12" n="12" facs="#Not_2_L12"/>
+                        prorogarsi a qualche giorno, non essendo ancora giunti a <settlement>Parigi</settlement> molti
+                        <lb xml:id="Not_2_linea_13" n="13" facs="#Not_2_L13"/>
+                        dei delegati.
+                    </p>
+                    <p xml:id="notizie3" facs="#Not_3_all">
+                        <lb xml:id="Not_3_linea_1" n="1" facs="#Not_3_L1"/>
+                        — La Rivista tedesca <title rendition="#italic">Nord und Süd</title> (agosto) contiene due poesie
+                        <lb xml:id="Not_3_linea_2" n="2" facs="#Not_3_L2"/>
+                        graziose di <persName><forename>Paolo </forename><surname>Heyse</surname></persName> scritte da lui a <settlement>Roma</settlement> nell'inverno scorso.<lb />
+                    </p>
+                    <p xml:id="notizie4" facs="#Not_4_all"> <!-- Vol2, 18 agosto 1878 fascicolo 7 (33)-->
+                        <lb xml:id="Not_4_linea_1" n="1" facs="#Not_4_L1"/>
+                        — Il 
+                        <persName xml:id="breymann">
+                            <roleName>professore</roleName> 
+                            <surname>Breymann</surname>
+                        </persName> ha fatto stampare una conferenza fatta 
+                        <lb xml:id="Not_4_linea_2" n="2" facs="#Not_4_L2"/>
+                        da <rs corresp="#breymann">lui</rs> a <settlement>Monaco in Baviera</settlement> sulla vita e le opere di 
+                        <persName xml:id="federicoDietz">
+                            <forename>Federico</forename>
+                            <surname> Dietz</surname>
+                        </persName>.
+                    </p>
+                    <p xml:id="notizie5" facs="#Not_5_all">
+                        <lb xml:id="Not_5_linea_1" n="1" facs="#Not_5_L1"/>
+                        — Nella <title rendition="#italic">Contemporary Review</title> (agosto) <persName><forename>Max </forename><surname>Müller</surname></persName> dà alcune notizie
+                        <lb xml:id="Not_5_linea_2" n="2" facs="#Not_5_L2"/>
+                        sulla vita e le opere dell'
+                        <listPerson>
+                            <person>
+                            <occupation>orientalista</occupation> 
+                            <persName>
+                                <forename>Roberto</forename> 
+                                <surname>Mohl</surname>
+                            </persName>
+                            </person>
+                        </listPerson> che nel mondo
+                        <lb xml:id="Not_5_linea_3" n="3" facs="#Not_5_L3"/>
+                        scientifico di <settlement>Parigi</settlement> occupava una posizione distinta.
+                    </p>
+                    <p xml:id="notizie6" facs="#Not_6_all">
+                        <lb xml:id="Not_6_linea_1" n="1" facs="#Not_6_L1"/>
+                        — Secondo la <title rendition="#italic">République Française</title> la libreria Hachette ha il più
+                        <lb xml:id="Not_6_linea_2" n="2" facs="#Not_6_L2"/>
+                        grande commercio librario del mondo, occupando cinquemila impiegati e
+                        <lb xml:id="Not_6_linea_3" n="3" facs="#Not_6_L3"/>
+                        esportando dugentomila pacchi l'anno.
+                    </p>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>
